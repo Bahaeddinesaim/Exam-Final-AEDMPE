@@ -66,7 +66,3 @@ streamlit run dashboard/app.py
 - `reports/management_report.pdf`
 - `docs/data_dictionary.md`
 - `docs/data_dictionary.csv`
-
-## Points de vigilance
-
-La cible fournie est un texte de consigne et non une table analytique. Les donnees contiennent volontairement des incoherences: casse pays, budget inconnu, ROI contradictoire avec statut campagne, granularites pays vs destination et avis sociaux potentiellement biaises. Le projet documente ces limites et transforme les donnees en aide a la decision plutot qu'en automatisation aveugle.
