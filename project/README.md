@@ -31,6 +31,10 @@ python run_pipeline.py
 streamlit run dashboard/app.py
 ```
 
+## Démo en ligne
+
+- Application Streamlit: https://exam-final-aed-mpe.streamlit.app/
+
 ## Workflow
 
 1. Chargement multi-format avec detection CSV, Excel et JSON.
