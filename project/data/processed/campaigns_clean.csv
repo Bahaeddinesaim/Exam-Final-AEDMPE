@@ -1,0 +1,9 @@
+country,destination,campaign_budget,conversion_rate,roi,status,destination_original,campaign_contradiction
+France,Annecy,50000.0,0.02,120000,SUCCESS,City_3,False
+France,Annecy,50000.0,0.02,-10000,SUCCESS,City_3,True
+Spain,Seville,,0.08,200000,FAIL,City_43,True
+Italy,Bari,0.0,0.12,80000,SUCCESS,City_7,False
+Portugal,Lagos,30000.0,,150000,SUCCESS,City_21,False
+Japan,Nagoya,100000.0,0.01,5000,TOP_PERFORMER,City_40,False
+Spain,Madrid,75000.0,0.03,220000,FAIL,City_10,True
+France,Paris,20000.0,0.15,10000,SUCCESS,City_17,False

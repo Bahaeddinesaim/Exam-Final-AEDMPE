@@ -1,0 +1,161 @@
+country,destination,attractiveness,cost,rating,visitors,destination_original
+France,Lyon,8.65,1416,4.4,15139847,City_25
+France,Dijon,8.27,477,4.08,2932983,City_49
+France,Biarritz,9.68,800,3.91,4835681,City_27
+France,Annecy,9.38,287,4.22,9376241,City_3
+France,Paris,9.78,1045,4.01,19828499,City_17
+France,Montpellier,8.1,648,4.97,9907832,City_33
+France,Aix-en-Provence,9.4,997,4.67,4768302,City_32
+France,Colmar,9.16,1489,4.31,3549376,City_26
+France,Reims,8.57,444,4.21,3519595,City_20
+France,Cannes,9.21,228,4.35,13692704,City_31
+France,Nice,7.97,956,4.08,17971236,City_23
+France,Strasbourg,9.05,743,4.16,10058721,City_38
+France,Marseille,7.3,257,4.5,16963323,City_14
+France,Saint-Malo,9.25,811,4.05,4830964,City_45
+France,Toulouse,8.9,974,3.65,9748116,City_9
+France,Rouen,7.48,1068,4.37,1414638,City_19
+France,Nantes,8.4,1451,4.44,8991087,City_36
+France,Avignon,7.33,760,3.71,5553993,City_7
+France,Bordeaux,9.85,1319,4.73,14493600,City_46
+France,Lille,8.87,1016,4.96,7881930,City_30
+Morocco,Taroudant,9.93,1117,4.61,638112,City_35
+Morocco,Safi,8.33,755,3.68,18701659,City_46
+Morocco,Fès,7.36,298,4.82,18022782,City_39
+Morocco,Merzouga,7.19,794,4.35,5066962,City_10
+Morocco,Agadir,8.57,1265,4.88,18487030,City_20
+Morocco,Asilah,7.96,211,4.76,1575712,City_7
+Morocco,Marrakech,7.79,1398,4.38,19352408,City_5
+Morocco,Casablanca,7.49,486,3.72,18924707,City_22
+Morocco,Ouarzazate,9.11,1493,4.15,8429666,City_31
+Morocco,Ifrane,8.92,523,4.93,7886254,City_36
+Morocco,El Jadida,8.35,949,3.67,6107382,City_45
+Morocco,Chefchaouen,9.44,1043,4.82,13620024,City_23
+Morocco,Essaouira,7.94,1334,4.54,14781977,City_28
+Morocco,Tetouan,8.5,873,4.09,7062404,City_21
+Morocco,Tanger,8.82,321,4.21,16951469,City_14
+Morocco,Rabat,7.86,1376,4.43,14927048,City_42
+Morocco,Meknès,7.41,979,3.64,10769405,City_29
+Morocco,Al Hoceima,8.77,935,3.55,1009528,City_17
+Morocco,Oujda,8.96,267,3.83,2844067,City_4
+Morocco,Dakhla,8.1,491,4.84,6570333,City_26
+Spain,Santiago de Compostela,8.61,755,3.65,3317620,City_36
+Spain,Ronda,9.14,823,3.56,2260155,City_1
+Spain,Cadiz,8.85,863,4.67,11402036,City_6
+Spain,Bilbao,8.23,747,3.55,9189321,City_47
+Spain,Tenerife,8.12,930,3.58,4407721,City_26
+Spain,Seville,9.57,629,4.65,14823413,City_43
+Spain,Valencia,9.25,1002,4.28,13189413,City_41
+Spain,Palma de Mallorca,7.6,236,3.76,10895298,City_49
+Spain,Zaragoza,7.67,1478,4.89,5637928,City_40
+Spain,Barcelona,8.79,409,3.75,18529304,City_32
+Spain,San Sebastian,7.15,1004,4.99,7133155,City_22
+Spain,Girona,8.84,1003,4.8,3726013,City_16
+Spain,Salamanca,9.19,346,4.33,6340596,City_21
+Spain,Ibiza,7.63,269,3.83,6485263,City_5
+Spain,Cordoba,7.68,623,3.63,7533878,City_13
+Spain,Malaga,8.3,910,4.82,11919051,City_15
+Spain,Toledo,8.85,1009,3.54,7173993,City_39
+Spain,Madrid,9.04,680,4.52,16246641,City_10
+Spain,Granada,9.97,1240,3.89,11510968,City_29
+Spain,Alicante,9.28,1419,4.86,10320379,City_3
+Italy,Perugia,7.97,950,4.44,548967,City_6
+Italy,Rome,8.28,1344,4.93,19728764,City_21
+Italy,Naples,9.37,1000,4.6,17029238,City_33
+Italy,Bologna,7.94,1451,4.57,12170856,City_32
+Italy,Bari,9.19,456,3.82,3737173,City_7
+Italy,Cinque Terre,9.42,623,3.68,7633850,City_20
+Italy,Catania,7.83,1206,4.58,9603459,City_36
+Italy,Verona,8.7,637,3.69,14405079,City_19
+Italy,Lake Como,9.82,986,4.62,4390172,City_8
+Italy,Rimini,7.63,1145,3.86,2411949,City_44
+Italy,Matera,7.05,750,3.51,16862872,City_22
+Italy,Siena,9.95,1216,4.38,6350319,City_35
+Italy,Sorrento,8.54,1433,4.81,9641081,City_14
+Italy,Milan,7.66,600,3.85,17307021,City_41
+Italy,Florence,8.48,1228,4.7,17098553,City_43
+Italy,Pisa,9.53,557,4.43,15061569,City_29
+Italy,Palermo,9.59,831,4.97,7864470,City_50
+Italy,Genoa,9.26,1209,4.46,6100512,City_25
+Italy,Turin,8.23,1132,4.73,10184213,City_49
+Italy,Venice,8.2,326,3.84,17685684,City_37
+Japan,Kumamoto,8.22,1176,4.96,1412104,City_16
+Japan,Beppu,8.23,263,4.1,4357033,City_19
+Japan,Fukuoka,9.33,823,3.7,15626114,City_12
+Japan,Matsumoto,8.6,1108,4.82,2774561,City_13
+Japan,Hakone,7.27,1007,4.72,10667972,City_48
+Japan,Hiroshima,8.26,334,4.74,17424921,City_3
+Japan,Nagoya,9.18,1036,4.39,15388243,City_40
+Japan,Tokyo,7.79,397,4.29,19493149,City_43
+Japan,Mount Fuji,9.09,446,4.15,6385525,City_17
+Japan,Kobe,8.53,302,4.49,15001843,City_31
+Japan,Takayama,9.34,1331,3.77,7238823,City_5
+Japan,Osaka,7.03,200,4.19,18316025,City_6
+Japan,Nikko,9.4,938,4.2,9216499,City_9
+Japan,Nara,8.47,232,4.94,17762779,City_10
+Japan,Okinawa,9.35,373,4.27,13862653,City_45
+Japan,Kamakura,9.04,619,4.31,8907609,City_39
+Japan,Yokohama,7.44,902,4.86,16362558,City_26
+Japan,Kanazawa,9.73,938,4.19,9252439,City_18
+Japan,Kyoto,8.2,1246,4.14,19301378,City_50
+Japan,Sapporo,9.1,1198,4.57,15697117,City_28
+Portugal,Madeira,8.91,304,3.74,15556141,City_14
+Portugal,Albufeira,9.88,1469,4.93,13516617,City_44
+Portugal,Porto,8.37,1139,4.43,15766396,City_38
+Portugal,Sintra,9.46,1034,4.99,13691269,City_27
+Portugal,Tomar,7.28,300,4.1,1014610,City_48
+Portugal,Portimão,9.81,805,3.89,316800,City_18
+Portugal,Évora,7.1,1290,3.68,5036304,City_29
+Portugal,Setúbal,7.05,896,4.77,2602488,City_32
+Portugal,Óbidos,7.3,203,3.65,4555595,City_42
+Portugal,Cascais,7.17,1102,4.42,7936550,City_23
+Portugal,Braga,8.57,1069,3.6,8436493,City_6
+Portugal,Lagos,7.1,894,3.88,5368127,City_21
+Portugal,Coimbra,7.04,437,4.97,10682408,City_8
+Portugal,Faro,9.92,221,3.57,14678841,City_43
+Portugal,Viana do Castelo,8.92,596,4.67,678486,City_22
+Portugal,Aveiro,7.72,399,3.87,7816399,City_13
+Portugal,Monsanto,9.78,651,4.14,101337,City_16
+Portugal,Funchal,8.28,587,4.56,3511794,City_2
+Portugal,Lisbon,8.34,1241,4.04,18601251,City_45
+Portugal,Guimarães,7.7,364,4.91,4895032,City_4
+Germany,Düsseldorf,8.15,662,4.85,16731733,City_46
+Germany,Regensburg,9.98,1212,3.66,3955517,City_15
+Germany,Cologne,7.7,1086,3.59,17909523,City_24
+Germany,Frankfurt,7.34,609,3.91,17524235,City_11
+Germany,Dresden,8.12,822,4.62,14841366,City_22
+Germany,Nuremberg,9.39,972,4.17,13628140,City_28
+Germany,Trier,9.52,309,4.33,5190375,City_4
+Germany,Munich,8.65,715,4.63,18407562,City_7
+Germany,Aachen,7.45,1432,4.56,2493498,City_10
+Germany,Heidelberg,8.84,504,3.73,14805417,City_49
+Germany,Freiburg,9.09,1076,4.41,9213690,City_3
+Germany,Lübeck,9.9,212,3.91,3921735,City_37
+Germany,Bremen,9.69,1122,4.33,10060658,City_35
+Germany,Berlin,9.91,1498,4.26,18723722,City_5
+Germany,Potsdam,8.12,372,4.0,9908694,City_2
+Germany,Stuttgart,9.9,907,3.57,15744515,City_8
+Germany,Leipzig,7.99,1115,3.66,12196358,City_13
+Germany,Rothenburg ob der Tauber,9.22,830,4.3,9708898,City_38
+Germany,Hamburg,7.61,1342,4.51,18288172,City_26
+Germany,Bonn,7.82,466,4.78,9739174,City_40
+USA,Seattle,9.13,531,4.19,4781086,City_24
+USA,New Orleans,8.59,1482,3.63,3861096,City_8
+USA,Savannah,8.28,381,4.43,590063,City_3
+USA,Nashville,7.63,759,3.65,3163928,City_39
+USA,Miami,9.09,725,4.59,11710217,City_2
+USA,Orlando,7.68,812,4.4,12134970,City_13
+USA,San Diego,9.5,343,3.53,5124805,City_12
+USA,Honolulu,8.32,295,4.26,7735006,City_49
+USA,San Francisco,9.76,546,4.07,8611891,City_31
+USA,Charleston,7.27,795,4.74,339365,City_14
+USA,Austin,8.87,1378,4.82,865836,City_4
+USA,New York,7.4,1404,4.32,19450528,City_46
+USA,Portland,8.51,773,4.88,7712272,City_35
+USA,Los Angeles,7.86,316,4.88,12542552,City_28
+USA,Chicago,7.95,692,4.86,8612230,City_7
+USA,Las Vegas,9.66,1112,4.86,17195998,City_17
+USA,Boston,7.44,566,4.16,8392194,City_5
+USA,Washington D.C.,9.09,1379,3.56,8634539,City_15
+USA,Santa Fe,7.18,998,4.61,323057,City_34
+USA,Philadelphia,9.02,1077,4.28,1185861,City_21

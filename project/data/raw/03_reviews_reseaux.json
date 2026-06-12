@@ -1,0 +1,4802 @@
+[
+  {
+    "country": "Japan",
+    "destination": "City_23",
+    "sentiment": "neutral",
+    "score": 2.84
+  },
+  {
+    "country": "Spain",
+    "destination": "City_4",
+    "sentiment": "negative",
+    "score": 2.29
+  },
+  {
+    "country": "FRANCE",
+    "destination": "City_3",
+    "sentiment": "negative",
+    "score": 2.27
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_45",
+    "sentiment": "neutral",
+    "score": 2.93
+  },
+  {
+    "country": "Italy",
+    "destination": "City_17",
+    "sentiment": "neutral",
+    "score": 3.92
+  },
+  {
+    "country": "USA",
+    "destination": "City_37",
+    "sentiment": "positive",
+    "score": 1.28
+  },
+  {
+    "country": "Italy",
+    "destination": "City_50",
+    "sentiment": "positive",
+    "score": 4.52
+  },
+  {
+    "country": "Spain",
+    "destination": "City_11",
+    "sentiment": "neutral",
+    "score": 3.94
+  },
+  {
+    "country": "Japan",
+    "destination": "City_8",
+    "sentiment": "negative",
+    "score": 1.71
+  },
+  {
+    "country": "USA",
+    "destination": "City_43",
+    "sentiment": "positive",
+    "score": 4.76
+  },
+  {
+    "country": "France",
+    "destination": "City_31",
+    "sentiment": "negative",
+    "score": 3.03
+  },
+  {
+    "country": "Germany",
+    "destination": "City_37",
+    "sentiment": "negative",
+    "score": 5.0
+  },
+  {
+    "country": "Japan",
+    "destination": "City_42",
+    "sentiment": "neutral",
+    "score": 1.79
+  },
+  {
+    "country": "Germany",
+    "destination": "City_43",
+    "sentiment": "neutral",
+    "score": 3.14
+  },
+  {
+    "country": "Spain",
+    "destination": "City_36",
+    "sentiment": "negative",
+    "score": 2.16
+  },
+  {
+    "country": "France",
+    "destination": "City_30",
+    "sentiment": "negative",
+    "score": 2.22
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_22",
+    "sentiment": "negative",
+    "score": 3.36
+  },
+  {
+    "country": "France",
+    "destination": "City_35",
+    "sentiment": "neutral",
+    "score": 4.69
+  },
+  {
+    "country": "Spain",
+    "destination": "City_16",
+    "sentiment": "neutral",
+    "score": 4.22
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_40",
+    "sentiment": "neutral",
+    "score": 3.9
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_38",
+    "sentiment": "negative",
+    "score": 3.24
+  },
+  {
+    "country": "Spain",
+    "destination": "City_46",
+    "sentiment": "neutral",
+    "score": 4.69
+  },
+  {
+    "country": "Germany",
+    "destination": "City_48",
+    "sentiment": "neutral",
+    "score": 2.97
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_1",
+    "sentiment": "negative",
+    "score": 4.5
+  },
+  {
+    "country": "Italy",
+    "destination": "City_45",
+    "sentiment": "neutral",
+    "score": 4.34
+  },
+  {
+    "country": "Spain",
+    "destination": "City_16",
+    "sentiment": "positive",
+    "score": 1.86
+  },
+  {
+    "country": "USA",
+    "destination": "City_25",
+    "sentiment": "negative",
+    "score": 4.08
+  },
+  {
+    "country": "Germany",
+    "destination": "City_3",
+    "sentiment": "neutral",
+    "score": 1.05
+  },
+  {
+    "country": "Germany",
+    "destination": "City_50",
+    "sentiment": "negative",
+    "score": 2.29
+  },
+  {
+    "country": "France",
+    "destination": "City_11",
+    "sentiment": "neutral",
+    "score": 1.92
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_17",
+    "sentiment": "negative",
+    "score": 3.03
+  },
+  {
+    "country": "Spain",
+    "destination": "City_29",
+    "sentiment": "negative",
+    "score": 3.95
+  },
+  {
+    "country": "USA",
+    "destination": "City_36",
+    "sentiment": "negative",
+    "score": 1.39
+  },
+  {
+    "country": "France",
+    "destination": "City_3",
+    "sentiment": "neutral",
+    "score": 3.06
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_20",
+    "sentiment": "neutral",
+    "score": 4.75
+  },
+  {
+    "country": "France",
+    "destination": "City_27",
+    "sentiment": "positive",
+    "score": 1.91
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_47",
+    "sentiment": "positive",
+    "score": 3.71
+  },
+  {
+    "country": "France",
+    "destination": "City_26",
+    "sentiment": "negative",
+    "score": 3.37
+  },
+  {
+    "country": "Germany",
+    "destination": "City_21",
+    "sentiment": "positive",
+    "score": 1.04
+  },
+  {
+    "country": "Italy",
+    "destination": "City_1",
+    "sentiment": "negative",
+    "score": 2.9
+  },
+  {
+    "country": "France",
+    "destination": "City_44",
+    "sentiment": "negative",
+    "score": 3.84
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_13",
+    "sentiment": "positive",
+    "score": 1.18
+  },
+  {
+    "country": "Italy",
+    "destination": "City_20",
+    "sentiment": "neutral",
+    "score": 4.52
+  },
+  {
+    "country": "Spain",
+    "destination": "City_7",
+    "sentiment": "neutral",
+    "score": 3.08
+  },
+  {
+    "country": "Germany",
+    "destination": "City_41",
+    "sentiment": "positive",
+    "score": 1.12
+  },
+  {
+    "country": "France",
+    "destination": "City_18",
+    "sentiment": "neutral",
+    "score": 1.9
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_17",
+    "sentiment": "positive",
+    "score": 4.81
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_8",
+    "sentiment": "positive",
+    "score": 3.33
+  },
+  {
+    "country": "Japan",
+    "destination": "City_2",
+    "sentiment": "positive",
+    "score": 1.43
+  },
+  {
+    "country": "France",
+    "destination": "City_14",
+    "sentiment": "negative",
+    "score": 2.15
+  },
+  {
+    "country": "Japan",
+    "destination": "City_36",
+    "sentiment": "neutral",
+    "score": 2.83
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_37",
+    "sentiment": "positive",
+    "score": 1.08
+  },
+  {
+    "country": "USA",
+    "destination": "City_46",
+    "sentiment": "negative",
+    "score": 2.65
+  },
+  {
+    "country": "USA",
+    "destination": "City_41",
+    "sentiment": "neutral",
+    "score": 2.96
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_35",
+    "sentiment": "positive",
+    "score": 1.97
+  },
+  {
+    "country": "Italy",
+    "destination": "City_25",
+    "sentiment": "negative",
+    "score": 3.35
+  },
+  {
+    "country": "Japan",
+    "destination": "City_1",
+    "sentiment": "positive",
+    "score": 4.01
+  },
+  {
+    "country": "Spain",
+    "destination": "City_18",
+    "sentiment": "neutral",
+    "score": 1.94
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_24",
+    "sentiment": "negative",
+    "score": 3.48
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_22",
+    "sentiment": "negative",
+    "score": 3.56
+  },
+  {
+    "country": "France",
+    "destination": "City_3",
+    "sentiment": "neutral",
+    "score": 4.79
+  },
+  {
+    "country": "Spain",
+    "destination": "City_10",
+    "sentiment": "negative",
+    "score": 4.11
+  },
+  {
+    "country": "Japan",
+    "destination": "City_24",
+    "sentiment": "neutral",
+    "score": 4.39
+  },
+  {
+    "country": "Spain",
+    "destination": "City_19",
+    "sentiment": "positive",
+    "score": 2.96
+  },
+  {
+    "country": "USA",
+    "destination": "City_47",
+    "sentiment": "positive",
+    "score": 1.74
+  },
+  {
+    "country": "France",
+    "destination": "City_20",
+    "sentiment": "positive",
+    "score": 4.98
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_20",
+    "sentiment": "neutral",
+    "score": 1.52
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_20",
+    "sentiment": "neutral",
+    "score": 2.89
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_7",
+    "sentiment": "negative",
+    "score": 1.27
+  },
+  {
+    "country": "USA",
+    "destination": "City_31",
+    "sentiment": "neutral",
+    "score": 4.78
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_8",
+    "sentiment": "neutral",
+    "score": 4.86
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_45",
+    "sentiment": "neutral",
+    "score": 3.88
+  },
+  {
+    "country": "Germany",
+    "destination": "City_3",
+    "sentiment": "neutral",
+    "score": 2.4
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_48",
+    "sentiment": "negative",
+    "score": 2.02
+  },
+  {
+    "country": "Spain",
+    "destination": "City_11",
+    "sentiment": "negative",
+    "score": 2.06
+  },
+  {
+    "country": "Germany",
+    "destination": "City_41",
+    "sentiment": "positive",
+    "score": 1.51
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_6",
+    "sentiment": "positive",
+    "score": 3.1
+  },
+  {
+    "country": "Italy",
+    "destination": "City_4",
+    "sentiment": "neutral",
+    "score": 1.57
+  },
+  {
+    "country": "France",
+    "destination": "City_7",
+    "sentiment": "neutral",
+    "score": 2.27
+  },
+  {
+    "country": "Japan",
+    "destination": "City_29",
+    "sentiment": "neutral",
+    "score": 3.51
+  },
+  {
+    "country": "Italy",
+    "destination": "City_28",
+    "sentiment": "positive",
+    "score": 3.91
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_15",
+    "sentiment": "neutral",
+    "score": 1.1
+  },
+  {
+    "country": "Spain",
+    "destination": "City_28",
+    "sentiment": "positive",
+    "score": 2.72
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_8",
+    "sentiment": "positive",
+    "score": 3.61
+  },
+  {
+    "country": "France",
+    "destination": "City_34",
+    "sentiment": "neutral",
+    "score": 4.41
+  },
+  {
+    "country": "Italy",
+    "destination": "City_8",
+    "sentiment": "neutral",
+    "score": 2.9
+  },
+  {
+    "country": "Germany",
+    "destination": "City_17",
+    "sentiment": "positive",
+    "score": 4.88
+  },
+  {
+    "country": "France",
+    "destination": "City_14",
+    "sentiment": "negative",
+    "score": 2.06
+  },
+  {
+    "country": "Spain",
+    "destination": "City_7",
+    "sentiment": "positive",
+    "score": 1.05
+  },
+  {
+    "country": "USA",
+    "destination": "City_25",
+    "sentiment": "neutral",
+    "score": 2.94
+  },
+  {
+    "country": "Spain",
+    "destination": "City_7",
+    "sentiment": "negative",
+    "score": 2.02
+  },
+  {
+    "country": "USA",
+    "destination": "City_10",
+    "sentiment": "negative",
+    "score": 4.29
+  },
+  {
+    "country": "Germany",
+    "destination": "City_41",
+    "sentiment": "negative",
+    "score": 1.93
+  },
+  {
+    "country": "Germany",
+    "destination": "City_34",
+    "sentiment": "neutral",
+    "score": 2.24
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_32",
+    "sentiment": "neutral",
+    "score": 4.16
+  },
+  {
+    "country": "Italy",
+    "destination": "City_35",
+    "sentiment": "negative",
+    "score": 3.86
+  },
+  {
+    "country": "Italy",
+    "destination": "City_1",
+    "sentiment": "neutral",
+    "score": 3.23
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_21",
+    "sentiment": "positive",
+    "score": 3.82
+  },
+  {
+    "country": "Spain",
+    "destination": "City_17",
+    "sentiment": "negative",
+    "score": 2.67
+  },
+  {
+    "country": "Spain",
+    "destination": "City_25",
+    "sentiment": "negative",
+    "score": 1.02
+  },
+  {
+    "country": "Japan",
+    "destination": "City_46",
+    "sentiment": "negative",
+    "score": 1.05
+  },
+  {
+    "country": "USA",
+    "destination": "City_5",
+    "sentiment": "positive",
+    "score": 3.04
+  },
+  {
+    "country": "France",
+    "destination": "City_5",
+    "sentiment": "positive",
+    "score": 1.33
+  },
+  {
+    "country": "Spain",
+    "destination": "City_3",
+    "sentiment": "neutral",
+    "score": 1.2
+  },
+  {
+    "country": "France",
+    "destination": "City_49",
+    "sentiment": "neutral",
+    "score": 4.86
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_11",
+    "sentiment": "positive",
+    "score": 4.44
+  },
+  {
+    "country": "USA",
+    "destination": "City_24",
+    "sentiment": "negative",
+    "score": 1.61
+  },
+  {
+    "country": "Germany",
+    "destination": "City_34",
+    "sentiment": "negative",
+    "score": 1.0
+  },
+  {
+    "country": "France",
+    "destination": "City_37",
+    "sentiment": "positive",
+    "score": 4.77
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_48",
+    "sentiment": "neutral",
+    "score": 2.11
+  },
+  {
+    "country": "Italy",
+    "destination": "City_19",
+    "sentiment": "negative",
+    "score": 1.74
+  },
+  {
+    "country": "Germany",
+    "destination": "City_31",
+    "sentiment": "neutral",
+    "score": 3.77
+  },
+  {
+    "country": "Italy",
+    "destination": "City_2",
+    "sentiment": "negative",
+    "score": 1.44
+  },
+  {
+    "country": "France",
+    "destination": "City_48",
+    "sentiment": "positive",
+    "score": 2.06
+  },
+  {
+    "country": "Japan",
+    "destination": "City_33",
+    "sentiment": "negative",
+    "score": 4.9
+  },
+  {
+    "country": "Japan",
+    "destination": "City_22",
+    "sentiment": "positive",
+    "score": 3.56
+  },
+  {
+    "country": "USA",
+    "destination": "City_17",
+    "sentiment": "neutral",
+    "score": 3.08
+  },
+  {
+    "country": "Germany",
+    "destination": "City_25",
+    "sentiment": "neutral",
+    "score": 2.59
+  },
+  {
+    "country": "France",
+    "destination": "City_11",
+    "sentiment": "negative",
+    "score": 4.1
+  },
+  {
+    "country": "Spain",
+    "destination": "City_16",
+    "sentiment": "neutral",
+    "score": 1.56
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_4",
+    "sentiment": "positive",
+    "score": 4.87
+  },
+  {
+    "country": "USA",
+    "destination": "City_27",
+    "sentiment": "positive",
+    "score": 4.44
+  },
+  {
+    "country": "USA",
+    "destination": "City_39",
+    "sentiment": "negative",
+    "score": 3.47
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_44",
+    "sentiment": "negative",
+    "score": 1.17
+  },
+  {
+    "country": "Spain",
+    "destination": "City_23",
+    "sentiment": "neutral",
+    "score": 3.8
+  },
+  {
+    "country": "France",
+    "destination": "City_40",
+    "sentiment": "neutral",
+    "score": 4.65
+  },
+  {
+    "country": "Germany",
+    "destination": "City_30",
+    "sentiment": "positive",
+    "score": 3.1
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_31",
+    "sentiment": "positive",
+    "score": 2.42
+  },
+  {
+    "country": "France",
+    "destination": "City_3",
+    "sentiment": "negative",
+    "score": 1.48
+  },
+  {
+    "country": "Spain",
+    "destination": "City_41",
+    "sentiment": "neutral",
+    "score": 4.02
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_45",
+    "sentiment": "negative",
+    "score": 4.54
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_13",
+    "sentiment": "neutral",
+    "score": 1.4
+  },
+  {
+    "country": "USA",
+    "destination": "City_8",
+    "sentiment": "positive",
+    "score": 4.04
+  },
+  {
+    "country": "USA",
+    "destination": "City_40",
+    "sentiment": "negative",
+    "score": 1.07
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_42",
+    "sentiment": "positive",
+    "score": 4.87
+  },
+  {
+    "country": "Japan",
+    "destination": "City_9",
+    "sentiment": "neutral",
+    "score": 3.46
+  },
+  {
+    "country": "Japan",
+    "destination": "City_48",
+    "sentiment": "negative",
+    "score": 3.21
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_34",
+    "sentiment": "positive",
+    "score": 2.18
+  },
+  {
+    "country": "France",
+    "destination": "City_26",
+    "sentiment": "neutral",
+    "score": 4.72
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_49",
+    "sentiment": "positive",
+    "score": 2.06
+  },
+  {
+    "country": "USA",
+    "destination": "City_23",
+    "sentiment": "negative",
+    "score": 4.31
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_3",
+    "sentiment": "positive",
+    "score": 4.94
+  },
+  {
+    "country": "USA",
+    "destination": "City_17",
+    "sentiment": "positive",
+    "score": 4.13
+  },
+  {
+    "country": "Italy",
+    "destination": "City_15",
+    "sentiment": "positive",
+    "score": 3.08
+  },
+  {
+    "country": "Germany",
+    "destination": "City_33",
+    "sentiment": "neutral",
+    "score": 1.26
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_10",
+    "sentiment": "neutral",
+    "score": 2.89
+  },
+  {
+    "country": "Germany",
+    "destination": "City_6",
+    "sentiment": "positive",
+    "score": 2.75
+  },
+  {
+    "country": "Germany",
+    "destination": "City_5",
+    "sentiment": "positive",
+    "score": 1.81
+  },
+  {
+    "country": "Germany",
+    "destination": "City_50",
+    "sentiment": "positive",
+    "score": 2.69
+  },
+  {
+    "country": "France",
+    "destination": "City_29",
+    "sentiment": "neutral",
+    "score": 2.43
+  },
+  {
+    "country": "Germany",
+    "destination": "City_2",
+    "sentiment": "neutral",
+    "score": 1.65
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_47",
+    "sentiment": "neutral",
+    "score": 2.77
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_23",
+    "sentiment": "positive",
+    "score": 2.05
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_23",
+    "sentiment": "negative",
+    "score": 3.09
+  },
+  {
+    "country": "France",
+    "destination": "City_23",
+    "sentiment": "neutral",
+    "score": 1.14
+  },
+  {
+    "country": "Spain",
+    "destination": "City_1",
+    "sentiment": "positive",
+    "score": 4.62
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_5",
+    "sentiment": "negative",
+    "score": 4.27
+  },
+  {
+    "country": "Spain",
+    "destination": "City_14",
+    "sentiment": "positive",
+    "score": 3.21
+  },
+  {
+    "country": "Italy",
+    "destination": "City_43",
+    "sentiment": "negative",
+    "score": 4.41
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_48",
+    "sentiment": "positive",
+    "score": 4.85
+  },
+  {
+    "country": "Japan",
+    "destination": "City_24",
+    "sentiment": "negative",
+    "score": 1.44
+  },
+  {
+    "country": "France",
+    "destination": "City_39",
+    "sentiment": "positive",
+    "score": 3.52
+  },
+  {
+    "country": "Spain",
+    "destination": "City_12",
+    "sentiment": "neutral",
+    "score": 4.99
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_31",
+    "sentiment": "neutral",
+    "score": 4.95
+  },
+  {
+    "country": "Japan",
+    "destination": "City_9",
+    "sentiment": "positive",
+    "score": 3.41
+  },
+  {
+    "country": "Italy",
+    "destination": "City_24",
+    "sentiment": "neutral",
+    "score": 1.51
+  },
+  {
+    "country": "USA",
+    "destination": "City_19",
+    "sentiment": "neutral",
+    "score": 3.33
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_12",
+    "sentiment": "negative",
+    "score": 1.01
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_7",
+    "sentiment": "negative",
+    "score": 1.8
+  },
+  {
+    "country": "Japan",
+    "destination": "City_11",
+    "sentiment": "neutral",
+    "score": 4.82
+  },
+  {
+    "country": "Spain",
+    "destination": "City_9",
+    "sentiment": "positive",
+    "score": 2.32
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_33",
+    "sentiment": "positive",
+    "score": 3.55
+  },
+  {
+    "country": "Italy",
+    "destination": "City_49",
+    "sentiment": "positive",
+    "score": 2.12
+  },
+  {
+    "country": "Japan",
+    "destination": "City_24",
+    "sentiment": "neutral",
+    "score": 4.79
+  },
+  {
+    "country": "France",
+    "destination": "City_9",
+    "sentiment": "negative",
+    "score": 3.91
+  },
+  {
+    "country": "France",
+    "destination": "City_26",
+    "sentiment": "positive",
+    "score": 2.32
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_9",
+    "sentiment": "neutral",
+    "score": 4.17
+  },
+  {
+    "country": "Japan",
+    "destination": "City_36",
+    "sentiment": "neutral",
+    "score": 1.43
+  },
+  {
+    "country": "Spain",
+    "destination": "City_38",
+    "sentiment": "neutral",
+    "score": 2.57
+  },
+  {
+    "country": "Japan",
+    "destination": "City_41",
+    "sentiment": "neutral",
+    "score": 1.88
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_16",
+    "sentiment": "neutral",
+    "score": 3.73
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_41",
+    "sentiment": "negative",
+    "score": 1.41
+  },
+  {
+    "country": "France",
+    "destination": "City_25",
+    "sentiment": "neutral",
+    "score": 2.59
+  },
+  {
+    "country": "France",
+    "destination": "City_27",
+    "sentiment": "negative",
+    "score": 2.11
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_29",
+    "sentiment": "positive",
+    "score": 3.03
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_19",
+    "sentiment": "neutral",
+    "score": 2.4
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_12",
+    "sentiment": "positive",
+    "score": 3.83
+  },
+  {
+    "country": "Japan",
+    "destination": "City_8",
+    "sentiment": "negative",
+    "score": 1.1
+  },
+  {
+    "country": "Spain",
+    "destination": "City_45",
+    "sentiment": "neutral",
+    "score": 3.54
+  },
+  {
+    "country": "Germany",
+    "destination": "City_12",
+    "sentiment": "neutral",
+    "score": 1.92
+  },
+  {
+    "country": "Germany",
+    "destination": "City_12",
+    "sentiment": "positive",
+    "score": 2.07
+  },
+  {
+    "country": "USA",
+    "destination": "City_22",
+    "sentiment": "negative",
+    "score": 4.2
+  },
+  {
+    "country": "Spain",
+    "destination": "City_23",
+    "sentiment": "neutral",
+    "score": 4.82
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_31",
+    "sentiment": "positive",
+    "score": 2.27
+  },
+  {
+    "country": "Japan",
+    "destination": "City_1",
+    "sentiment": "negative",
+    "score": 4.31
+  },
+  {
+    "country": "USA",
+    "destination": "City_40",
+    "sentiment": "neutral",
+    "score": 1.42
+  },
+  {
+    "country": "France",
+    "destination": "City_14",
+    "sentiment": "neutral",
+    "score": 3.54
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_50",
+    "sentiment": "negative",
+    "score": 4.0
+  },
+  {
+    "country": "Japan",
+    "destination": "City_35",
+    "sentiment": "negative",
+    "score": 1.62
+  },
+  {
+    "country": "Spain",
+    "destination": "City_28",
+    "sentiment": "negative",
+    "score": 2.7
+  },
+  {
+    "country": "USA",
+    "destination": "City_6",
+    "sentiment": "negative",
+    "score": 4.57
+  },
+  {
+    "country": "USA",
+    "destination": "City_49",
+    "sentiment": "positive",
+    "score": 1.41
+  },
+  {
+    "country": "Germany",
+    "destination": "City_18",
+    "sentiment": "negative",
+    "score": 1.07
+  },
+  {
+    "country": "France",
+    "destination": "City_8",
+    "sentiment": "neutral",
+    "score": 3.36
+  },
+  {
+    "country": "France",
+    "destination": "City_1",
+    "sentiment": "neutral",
+    "score": 2.74
+  },
+  {
+    "country": "Germany",
+    "destination": "City_34",
+    "sentiment": "negative",
+    "score": 4.19
+  },
+  {
+    "country": "Germany",
+    "destination": "City_29",
+    "sentiment": "positive",
+    "score": 4.69
+  },
+  {
+    "country": "Japan",
+    "destination": "City_23",
+    "sentiment": "neutral",
+    "score": 2.2
+  },
+  {
+    "country": "Italy",
+    "destination": "City_39",
+    "sentiment": "positive",
+    "score": 2.55
+  },
+  {
+    "country": "France",
+    "destination": "City_5",
+    "sentiment": "neutral",
+    "score": 2.95
+  },
+  {
+    "country": "Japan",
+    "destination": "City_35",
+    "sentiment": "neutral",
+    "score": 3.35
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_34",
+    "sentiment": "positive",
+    "score": 4.94
+  },
+  {
+    "country": "Spain",
+    "destination": "City_5",
+    "sentiment": "neutral",
+    "score": 3.79
+  },
+  {
+    "country": "Japan",
+    "destination": "City_19",
+    "sentiment": "negative",
+    "score": 2.56
+  },
+  {
+    "country": "Spain",
+    "destination": "City_37",
+    "sentiment": "negative",
+    "score": 2.06
+  },
+  {
+    "country": "Italy",
+    "destination": "City_35",
+    "sentiment": "positive",
+    "score": 4.78
+  },
+  {
+    "country": "Germany",
+    "destination": "City_41",
+    "sentiment": "negative",
+    "score": 1.54
+  },
+  {
+    "country": "Germany",
+    "destination": "City_48",
+    "sentiment": "neutral",
+    "score": 3.88
+  },
+  {
+    "country": "Japan",
+    "destination": "City_29",
+    "sentiment": "neutral",
+    "score": 4.7
+  },
+  {
+    "country": "Spain",
+    "destination": "City_11",
+    "sentiment": "positive",
+    "score": 3.66
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_25",
+    "sentiment": "neutral",
+    "score": 2.69
+  },
+  {
+    "country": "USA",
+    "destination": "City_9",
+    "sentiment": "negative",
+    "score": 1.8
+  },
+  {
+    "country": "Japan",
+    "destination": "City_23",
+    "sentiment": "negative",
+    "score": 2.47
+  },
+  {
+    "country": "USA",
+    "destination": "City_48",
+    "sentiment": "neutral",
+    "score": 3.83
+  },
+  {
+    "country": "Italy",
+    "destination": "City_31",
+    "sentiment": "neutral",
+    "score": 3.6
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_32",
+    "sentiment": "negative",
+    "score": 4.71
+  },
+  {
+    "country": "France",
+    "destination": "City_29",
+    "sentiment": "neutral",
+    "score": 4.47
+  },
+  {
+    "country": "Spain",
+    "destination": "City_48",
+    "sentiment": "neutral",
+    "score": 4.26
+  },
+  {
+    "country": "France",
+    "destination": "City_40",
+    "sentiment": "positive",
+    "score": 4.65
+  },
+  {
+    "country": "France",
+    "destination": "City_23",
+    "sentiment": "neutral",
+    "score": 2.11
+  },
+  {
+    "country": "Germany",
+    "destination": "City_1",
+    "sentiment": "negative",
+    "score": 2.48
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_44",
+    "sentiment": "positive",
+    "score": 2.52
+  },
+  {
+    "country": "Germany",
+    "destination": "City_1",
+    "sentiment": "neutral",
+    "score": 3.24
+  },
+  {
+    "country": "France",
+    "destination": "City_8",
+    "sentiment": "negative",
+    "score": 3.67
+  },
+  {
+    "country": "France",
+    "destination": "City_18",
+    "sentiment": "negative",
+    "score": 2.15
+  },
+  {
+    "country": "Japan",
+    "destination": "City_47",
+    "sentiment": "positive",
+    "score": 1.08
+  },
+  {
+    "country": "Spain",
+    "destination": "City_49",
+    "sentiment": "negative",
+    "score": 2.6
+  },
+  {
+    "country": "Japan",
+    "destination": "City_13",
+    "sentiment": "positive",
+    "score": 2.23
+  },
+  {
+    "country": "Germany",
+    "destination": "City_30",
+    "sentiment": "negative",
+    "score": 4.77
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_25",
+    "sentiment": "positive",
+    "score": 4.55
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_27",
+    "sentiment": "negative",
+    "score": 4.44
+  },
+  {
+    "country": "Germany",
+    "destination": "City_10",
+    "sentiment": "neutral",
+    "score": 3.61
+  },
+  {
+    "country": "Spain",
+    "destination": "City_34",
+    "sentiment": "neutral",
+    "score": 2.38
+  },
+  {
+    "country": "Spain",
+    "destination": "City_14",
+    "sentiment": "positive",
+    "score": 3.2
+  },
+  {
+    "country": "USA",
+    "destination": "City_23",
+    "sentiment": "neutral",
+    "score": 4.26
+  },
+  {
+    "country": "Germany",
+    "destination": "City_32",
+    "sentiment": "neutral",
+    "score": 1.39
+  },
+  {
+    "country": "Italy",
+    "destination": "City_13",
+    "sentiment": "neutral",
+    "score": 4.2
+  },
+  {
+    "country": "Italy",
+    "destination": "City_38",
+    "sentiment": "negative",
+    "score": 1.16
+  },
+  {
+    "country": "France",
+    "destination": "City_25",
+    "sentiment": "positive",
+    "score": 4.27
+  },
+  {
+    "country": "Italy",
+    "destination": "City_41",
+    "sentiment": "positive",
+    "score": 4.23
+  },
+  {
+    "country": "Spain",
+    "destination": "City_24",
+    "sentiment": "positive",
+    "score": 1.2
+  },
+  {
+    "country": "Spain",
+    "destination": "City_15",
+    "sentiment": "negative",
+    "score": 3.51
+  },
+  {
+    "country": "Japan",
+    "destination": "City_40",
+    "sentiment": "positive",
+    "score": 3.01
+  },
+  {
+    "country": "Japan",
+    "destination": "City_50",
+    "sentiment": "neutral",
+    "score": 1.68
+  },
+  {
+    "country": "Germany",
+    "destination": "City_30",
+    "sentiment": "positive",
+    "score": 1.59
+  },
+  {
+    "country": "Germany",
+    "destination": "City_38",
+    "sentiment": "neutral",
+    "score": 4.09
+  },
+  {
+    "country": "USA",
+    "destination": "City_17",
+    "sentiment": "negative",
+    "score": 3.27
+  },
+  {
+    "country": "USA",
+    "destination": "City_14",
+    "sentiment": "neutral",
+    "score": 4.93
+  },
+  {
+    "country": "Japan",
+    "destination": "City_3",
+    "sentiment": "positive",
+    "score": 4.93
+  },
+  {
+    "country": "France",
+    "destination": "City_11",
+    "sentiment": "neutral",
+    "score": 4.97
+  },
+  {
+    "country": "France",
+    "destination": "City_19",
+    "sentiment": "negative",
+    "score": 1.47
+  },
+  {
+    "country": "France",
+    "destination": "City_9",
+    "sentiment": "positive",
+    "score": 4.75
+  },
+  {
+    "country": "Germany",
+    "destination": "City_44",
+    "sentiment": "positive",
+    "score": 1.98
+  },
+  {
+    "country": "Germany",
+    "destination": "City_36",
+    "sentiment": "positive",
+    "score": 2.83
+  },
+  {
+    "country": "USA",
+    "destination": "City_13",
+    "sentiment": "neutral",
+    "score": 4.03
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_39",
+    "sentiment": "positive",
+    "score": 1.81
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_21",
+    "sentiment": "negative",
+    "score": 3.27
+  },
+  {
+    "country": "USA",
+    "destination": "City_21",
+    "sentiment": "neutral",
+    "score": 1.74
+  },
+  {
+    "country": "France",
+    "destination": "City_34",
+    "sentiment": "positive",
+    "score": 1.42
+  },
+  {
+    "country": "Italy",
+    "destination": "City_24",
+    "sentiment": "positive",
+    "score": 1.47
+  },
+  {
+    "country": "Italy",
+    "destination": "City_34",
+    "sentiment": "neutral",
+    "score": 2.43
+  },
+  {
+    "country": "Italy",
+    "destination": "City_13",
+    "sentiment": "neutral",
+    "score": 1.02
+  },
+  {
+    "country": "Japan",
+    "destination": "City_20",
+    "sentiment": "negative",
+    "score": 2.7
+  },
+  {
+    "country": "Germany",
+    "destination": "City_17",
+    "sentiment": "neutral",
+    "score": 3.66
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_46",
+    "sentiment": "positive",
+    "score": 2.61
+  },
+  {
+    "country": "France",
+    "destination": "City_20",
+    "sentiment": "negative",
+    "score": 1.34
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_1",
+    "sentiment": "neutral",
+    "score": 1.25
+  },
+  {
+    "country": "USA",
+    "destination": "City_47",
+    "sentiment": "neutral",
+    "score": 2.11
+  },
+  {
+    "country": "France",
+    "destination": "City_27",
+    "sentiment": "neutral",
+    "score": 1.68
+  },
+  {
+    "country": "USA",
+    "destination": "City_29",
+    "sentiment": "positive",
+    "score": 4.86
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_6",
+    "sentiment": "positive",
+    "score": 1.6
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_49",
+    "sentiment": "positive",
+    "score": 4.22
+  },
+  {
+    "country": "Germany",
+    "destination": "City_14",
+    "sentiment": "neutral",
+    "score": 3.34
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_28",
+    "sentiment": "negative",
+    "score": 3.28
+  },
+  {
+    "country": "Germany",
+    "destination": "City_3",
+    "sentiment": "positive",
+    "score": 3.05
+  },
+  {
+    "country": "Italy",
+    "destination": "City_32",
+    "sentiment": "positive",
+    "score": 4.89
+  },
+  {
+    "country": "Spain",
+    "destination": "City_18",
+    "sentiment": "neutral",
+    "score": 2.46
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_28",
+    "sentiment": "positive",
+    "score": 4.15
+  },
+  {
+    "country": "Japan",
+    "destination": "City_40",
+    "sentiment": "negative",
+    "score": 3.22
+  },
+  {
+    "country": "Italy",
+    "destination": "City_46",
+    "sentiment": "neutral",
+    "score": 2.58
+  },
+  {
+    "country": "USA",
+    "destination": "City_33",
+    "sentiment": "negative",
+    "score": 4.82
+  },
+  {
+    "country": "USA",
+    "destination": "City_35",
+    "sentiment": "negative",
+    "score": 3.39
+  },
+  {
+    "country": "Japan",
+    "destination": "City_18",
+    "sentiment": "positive",
+    "score": 1.48
+  },
+  {
+    "country": "France",
+    "destination": "City_8",
+    "sentiment": "negative",
+    "score": 2.67
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_12",
+    "sentiment": "negative",
+    "score": 4.13
+  },
+  {
+    "country": "Germany",
+    "destination": "City_16",
+    "sentiment": "positive",
+    "score": 3.77
+  },
+  {
+    "country": "Japan",
+    "destination": "City_48",
+    "sentiment": "negative",
+    "score": 4.67
+  },
+  {
+    "country": "France",
+    "destination": "City_48",
+    "sentiment": "negative",
+    "score": 2.04
+  },
+  {
+    "country": "Germany",
+    "destination": "City_4",
+    "sentiment": "positive",
+    "score": 4.03
+  },
+  {
+    "country": "Germany",
+    "destination": "City_42",
+    "sentiment": "neutral",
+    "score": 2.84
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_48",
+    "sentiment": "negative",
+    "score": 3.29
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_15",
+    "sentiment": "negative",
+    "score": 4.82
+  },
+  {
+    "country": "Japan",
+    "destination": "City_15",
+    "sentiment": "negative",
+    "score": 4.92
+  },
+  {
+    "country": "Italy",
+    "destination": "City_5",
+    "sentiment": "negative",
+    "score": 4.45
+  },
+  {
+    "country": "Japan",
+    "destination": "City_44",
+    "sentiment": "neutral",
+    "score": 2.44
+  },
+  {
+    "country": "Italy",
+    "destination": "City_24",
+    "sentiment": "negative",
+    "score": 4.55
+  },
+  {
+    "country": "USA",
+    "destination": "City_19",
+    "sentiment": "negative",
+    "score": 3.55
+  },
+  {
+    "country": "Spain",
+    "destination": "City_9",
+    "sentiment": "positive",
+    "score": 2.72
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_24",
+    "sentiment": "negative",
+    "score": 1.14
+  },
+  {
+    "country": "France",
+    "destination": "City_9",
+    "sentiment": "neutral",
+    "score": 4.08
+  },
+  {
+    "country": "Spain",
+    "destination": "City_12",
+    "sentiment": "negative",
+    "score": 3.01
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_9",
+    "sentiment": "positive",
+    "score": 4.14
+  },
+  {
+    "country": "USA",
+    "destination": "City_37",
+    "sentiment": "negative",
+    "score": 3.99
+  },
+  {
+    "country": "Italy",
+    "destination": "City_16",
+    "sentiment": "negative",
+    "score": 4.17
+  },
+  {
+    "country": "Spain",
+    "destination": "City_15",
+    "sentiment": "neutral",
+    "score": 2.2
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_39",
+    "sentiment": "negative",
+    "score": 4.2
+  },
+  {
+    "country": "Spain",
+    "destination": "City_41",
+    "sentiment": "neutral",
+    "score": 3.2
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_40",
+    "sentiment": "positive",
+    "score": 2.89
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_32",
+    "sentiment": "neutral",
+    "score": 3.7
+  },
+  {
+    "country": "Japan",
+    "destination": "City_1",
+    "sentiment": "positive",
+    "score": 1.09
+  },
+  {
+    "country": "Spain",
+    "destination": "City_43",
+    "sentiment": "neutral",
+    "score": 1.41
+  },
+  {
+    "country": "USA",
+    "destination": "City_35",
+    "sentiment": "neutral",
+    "score": 2.17
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_17",
+    "sentiment": "positive",
+    "score": 4.93
+  },
+  {
+    "country": "Germany",
+    "destination": "City_46",
+    "sentiment": "positive",
+    "score": 1.56
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_19",
+    "sentiment": "neutral",
+    "score": 2.32
+  },
+  {
+    "country": "France",
+    "destination": "City_14",
+    "sentiment": "positive",
+    "score": 1.2
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_47",
+    "sentiment": "negative",
+    "score": 2.33
+  },
+  {
+    "country": "Italy",
+    "destination": "City_22",
+    "sentiment": "neutral",
+    "score": 2.28
+  },
+  {
+    "country": "Italy",
+    "destination": "City_17",
+    "sentiment": "neutral",
+    "score": 4.79
+  },
+  {
+    "country": "Spain",
+    "destination": "City_20",
+    "sentiment": "positive",
+    "score": 4.38
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_37",
+    "sentiment": "negative",
+    "score": 2.53
+  },
+  {
+    "country": "France",
+    "destination": "City_47",
+    "sentiment": "negative",
+    "score": 1.1
+  },
+  {
+    "country": "Spain",
+    "destination": "City_23",
+    "sentiment": "positive",
+    "score": 4.32
+  },
+  {
+    "country": "USA",
+    "destination": "City_41",
+    "sentiment": "positive",
+    "score": 3.64
+  },
+  {
+    "country": "France",
+    "destination": "City_16",
+    "sentiment": "positive",
+    "score": 1.61
+  },
+  {
+    "country": "France",
+    "destination": "City_15",
+    "sentiment": "negative",
+    "score": 4.98
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_5",
+    "sentiment": "positive",
+    "score": 1.4
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_43",
+    "sentiment": "neutral",
+    "score": 4.47
+  },
+  {
+    "country": "Spain",
+    "destination": "City_14",
+    "sentiment": "neutral",
+    "score": 2.18
+  },
+  {
+    "country": "Germany",
+    "destination": "City_10",
+    "sentiment": "neutral",
+    "score": 2.74
+  },
+  {
+    "country": "Japan",
+    "destination": "City_12",
+    "sentiment": "negative",
+    "score": 4.18
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_47",
+    "sentiment": "negative",
+    "score": 3.71
+  },
+  {
+    "country": "Germany",
+    "destination": "City_25",
+    "sentiment": "positive",
+    "score": 4.75
+  },
+  {
+    "country": "Germany",
+    "destination": "City_17",
+    "sentiment": "negative",
+    "score": 3.48
+  },
+  {
+    "country": "USA",
+    "destination": "City_49",
+    "sentiment": "positive",
+    "score": 1.39
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_27",
+    "sentiment": "neutral",
+    "score": 4.54
+  },
+  {
+    "country": "Spain",
+    "destination": "City_1",
+    "sentiment": "negative",
+    "score": 4.08
+  },
+  {
+    "country": "Spain",
+    "destination": "City_40",
+    "sentiment": "negative",
+    "score": 3.85
+  },
+  {
+    "country": "Spain",
+    "destination": "City_6",
+    "sentiment": "neutral",
+    "score": 1.21
+  },
+  {
+    "country": "Italy",
+    "destination": "City_12",
+    "sentiment": "positive",
+    "score": 2.58
+  },
+  {
+    "country": "France",
+    "destination": "City_11",
+    "sentiment": "negative",
+    "score": 1.67
+  },
+  {
+    "country": "Spain",
+    "destination": "City_46",
+    "sentiment": "positive",
+    "score": 4.29
+  },
+  {
+    "country": "Germany",
+    "destination": "City_39",
+    "sentiment": "positive",
+    "score": 3.8
+  },
+  {
+    "country": "USA",
+    "destination": "City_46",
+    "sentiment": "positive",
+    "score": 4.53
+  },
+  {
+    "country": "France",
+    "destination": "City_17",
+    "sentiment": "neutral",
+    "score": 4.87
+  },
+  {
+    "country": "Germany",
+    "destination": "City_2",
+    "sentiment": "negative",
+    "score": 4.1
+  },
+  {
+    "country": "France",
+    "destination": "City_32",
+    "sentiment": "positive",
+    "score": 4.98
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_19",
+    "sentiment": "negative",
+    "score": 3.46
+  },
+  {
+    "country": "Spain",
+    "destination": "City_30",
+    "sentiment": "positive",
+    "score": 1.15
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_11",
+    "sentiment": "negative",
+    "score": 1.06
+  },
+  {
+    "country": "Germany",
+    "destination": "City_22",
+    "sentiment": "neutral",
+    "score": 2.37
+  },
+  {
+    "country": "USA",
+    "destination": "City_26",
+    "sentiment": "positive",
+    "score": 4.29
+  },
+  {
+    "country": "Japan",
+    "destination": "City_34",
+    "sentiment": "neutral",
+    "score": 4.46
+  },
+  {
+    "country": "USA",
+    "destination": "City_3",
+    "sentiment": "negative",
+    "score": 4.84
+  },
+  {
+    "country": "Japan",
+    "destination": "City_44",
+    "sentiment": "positive",
+    "score": 1.26
+  },
+  {
+    "country": "USA",
+    "destination": "City_26",
+    "sentiment": "negative",
+    "score": 1.18
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_26",
+    "sentiment": "neutral",
+    "score": 4.65
+  },
+  {
+    "country": "USA",
+    "destination": "City_4",
+    "sentiment": "positive",
+    "score": 2.22
+  },
+  {
+    "country": "Japan",
+    "destination": "City_48",
+    "sentiment": "positive",
+    "score": 3.23
+  },
+  {
+    "country": "Japan",
+    "destination": "City_44",
+    "sentiment": "negative",
+    "score": 4.93
+  },
+  {
+    "country": "Japan",
+    "destination": "City_44",
+    "sentiment": "positive",
+    "score": 2.6
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_25",
+    "sentiment": "neutral",
+    "score": 3.66
+  },
+  {
+    "country": "Italy",
+    "destination": "City_8",
+    "sentiment": "negative",
+    "score": 2.6
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_16",
+    "sentiment": "negative",
+    "score": 4.07
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_11",
+    "sentiment": "positive",
+    "score": 3.11
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_48",
+    "sentiment": "positive",
+    "score": 1.95
+  },
+  {
+    "country": "France",
+    "destination": "City_37",
+    "sentiment": "positive",
+    "score": 2.09
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_24",
+    "sentiment": "neutral",
+    "score": 2.03
+  },
+  {
+    "country": "Japan",
+    "destination": "City_21",
+    "sentiment": "neutral",
+    "score": 3.13
+  },
+  {
+    "country": "Germany",
+    "destination": "City_39",
+    "sentiment": "neutral",
+    "score": 3.81
+  },
+  {
+    "country": "Spain",
+    "destination": "City_1",
+    "sentiment": "positive",
+    "score": 4.8
+  },
+  {
+    "country": "France",
+    "destination": "City_29",
+    "sentiment": "positive",
+    "score": 3.78
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_1",
+    "sentiment": "negative",
+    "score": 4.12
+  },
+  {
+    "country": "USA",
+    "destination": "City_43",
+    "sentiment": "negative",
+    "score": 1.68
+  },
+  {
+    "country": "Japan",
+    "destination": "City_48",
+    "sentiment": "negative",
+    "score": 2.5
+  },
+  {
+    "country": "Italy",
+    "destination": "City_5",
+    "sentiment": "negative",
+    "score": 2.66
+  },
+  {
+    "country": "Germany",
+    "destination": "City_18",
+    "sentiment": "positive",
+    "score": 3.75
+  },
+  {
+    "country": "Spain",
+    "destination": "City_5",
+    "sentiment": "negative",
+    "score": 2.18
+  },
+  {
+    "country": "Spain",
+    "destination": "City_38",
+    "sentiment": "positive",
+    "score": 2.21
+  },
+  {
+    "country": "Germany",
+    "destination": "City_49",
+    "sentiment": "neutral",
+    "score": 2.42
+  },
+  {
+    "country": "Japan",
+    "destination": "City_20",
+    "sentiment": "neutral",
+    "score": 4.24
+  },
+  {
+    "country": "France",
+    "destination": "City_28",
+    "sentiment": "negative",
+    "score": 3.31
+  },
+  {
+    "country": "Japan",
+    "destination": "City_17",
+    "sentiment": "negative",
+    "score": 1.3
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_22",
+    "sentiment": "positive",
+    "score": 1.31
+  },
+  {
+    "country": "Germany",
+    "destination": "City_10",
+    "sentiment": "positive",
+    "score": 2.49
+  },
+  {
+    "country": "Spain",
+    "destination": "City_43",
+    "sentiment": "negative",
+    "score": 4.07
+  },
+  {
+    "country": "Germany",
+    "destination": "City_24",
+    "sentiment": "neutral",
+    "score": 3.75
+  },
+  {
+    "country": "France",
+    "destination": "City_36",
+    "sentiment": "neutral",
+    "score": 3.83
+  },
+  {
+    "country": "Italy",
+    "destination": "City_2",
+    "sentiment": "neutral",
+    "score": 4.07
+  },
+  {
+    "country": "Spain",
+    "destination": "City_44",
+    "sentiment": "positive",
+    "score": 2.15
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_41",
+    "sentiment": "negative",
+    "score": 3.19
+  },
+  {
+    "country": "USA",
+    "destination": "City_2",
+    "sentiment": "negative",
+    "score": 3.17
+  },
+  {
+    "country": "Italy",
+    "destination": "City_37",
+    "sentiment": "positive",
+    "score": 3.96
+  },
+  {
+    "country": "Japan",
+    "destination": "City_12",
+    "sentiment": "neutral",
+    "score": 4.83
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_37",
+    "sentiment": "neutral",
+    "score": 2.11
+  },
+  {
+    "country": "Italy",
+    "destination": "City_48",
+    "sentiment": "negative",
+    "score": 4.17
+  },
+  {
+    "country": "USA",
+    "destination": "City_33",
+    "sentiment": "negative",
+    "score": 3.64
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_13",
+    "sentiment": "positive",
+    "score": 3.32
+  },
+  {
+    "country": "USA",
+    "destination": "City_5",
+    "sentiment": "neutral",
+    "score": 4.1
+  },
+  {
+    "country": "Germany",
+    "destination": "City_18",
+    "sentiment": "neutral",
+    "score": 4.78
+  },
+  {
+    "country": "Germany",
+    "destination": "City_49",
+    "sentiment": "neutral",
+    "score": 1.15
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_6",
+    "sentiment": "neutral",
+    "score": 1.59
+  },
+  {
+    "country": "France",
+    "destination": "City_32",
+    "sentiment": "positive",
+    "score": 4.03
+  },
+  {
+    "country": "Japan",
+    "destination": "City_13",
+    "sentiment": "neutral",
+    "score": 1.34
+  },
+  {
+    "country": "Germany",
+    "destination": "City_28",
+    "sentiment": "negative",
+    "score": 3.06
+  },
+  {
+    "country": "Germany",
+    "destination": "City_45",
+    "sentiment": "positive",
+    "score": 1.88
+  },
+  {
+    "country": "USA",
+    "destination": "City_23",
+    "sentiment": "negative",
+    "score": 2.1
+  },
+  {
+    "country": "Spain",
+    "destination": "City_37",
+    "sentiment": "negative",
+    "score": 3.81
+  },
+  {
+    "country": "Japan",
+    "destination": "City_21",
+    "sentiment": "positive",
+    "score": 1.12
+  },
+  {
+    "country": "Germany",
+    "destination": "City_31",
+    "sentiment": "negative",
+    "score": 4.49
+  },
+  {
+    "country": "Spain",
+    "destination": "City_3",
+    "sentiment": "positive",
+    "score": 2.78
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_24",
+    "sentiment": "positive",
+    "score": 3.01
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_13",
+    "sentiment": "negative",
+    "score": 3.16
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_43",
+    "sentiment": "negative",
+    "score": 3.58
+  },
+  {
+    "country": "USA",
+    "destination": "City_3",
+    "sentiment": "neutral",
+    "score": 2.38
+  },
+  {
+    "country": "France",
+    "destination": "City_21",
+    "sentiment": "neutral",
+    "score": 1.4
+  },
+  {
+    "country": "Spain",
+    "destination": "City_49",
+    "sentiment": "negative",
+    "score": 2.27
+  },
+  {
+    "country": "Japan",
+    "destination": "City_27",
+    "sentiment": "negative",
+    "score": 1.67
+  },
+  {
+    "country": "Spain",
+    "destination": "City_39",
+    "sentiment": "positive",
+    "score": 3.22
+  },
+  {
+    "country": "Germany",
+    "destination": "City_20",
+    "sentiment": "negative",
+    "score": 2.27
+  },
+  {
+    "country": "France",
+    "destination": "City_11",
+    "sentiment": "positive",
+    "score": 4.83
+  },
+  {
+    "country": "Spain",
+    "destination": "City_31",
+    "sentiment": "negative",
+    "score": 4.86
+  },
+  {
+    "country": "France",
+    "destination": "City_47",
+    "sentiment": "negative",
+    "score": 3.48
+  },
+  {
+    "country": "France",
+    "destination": "City_36",
+    "sentiment": "negative",
+    "score": 3.47
+  },
+  {
+    "country": "Germany",
+    "destination": "City_12",
+    "sentiment": "neutral",
+    "score": 4.94
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_6",
+    "sentiment": "negative",
+    "score": 4.55
+  },
+  {
+    "country": "Spain",
+    "destination": "City_17",
+    "sentiment": "positive",
+    "score": 4.06
+  },
+  {
+    "country": "Japan",
+    "destination": "City_21",
+    "sentiment": "negative",
+    "score": 2.25
+  },
+  {
+    "country": "Japan",
+    "destination": "City_17",
+    "sentiment": "negative",
+    "score": 2.46
+  },
+  {
+    "country": "USA",
+    "destination": "City_10",
+    "sentiment": "neutral",
+    "score": 1.81
+  },
+  {
+    "country": "Spain",
+    "destination": "City_3",
+    "sentiment": "negative",
+    "score": 2.95
+  },
+  {
+    "country": "Spain",
+    "destination": "City_42",
+    "sentiment": "negative",
+    "score": 4.96
+  },
+  {
+    "country": "France",
+    "destination": "City_49",
+    "sentiment": "neutral",
+    "score": 4.65
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_13",
+    "sentiment": "negative",
+    "score": 1.47
+  },
+  {
+    "country": "USA",
+    "destination": "City_40",
+    "sentiment": "positive",
+    "score": 1.1
+  },
+  {
+    "country": "USA",
+    "destination": "City_34",
+    "sentiment": "positive",
+    "score": 4.59
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_42",
+    "sentiment": "positive",
+    "score": 3.15
+  },
+  {
+    "country": "USA",
+    "destination": "City_50",
+    "sentiment": "negative",
+    "score": 1.8
+  },
+  {
+    "country": "France",
+    "destination": "City_35",
+    "sentiment": "positive",
+    "score": 3.69
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_1",
+    "sentiment": "positive",
+    "score": 3.58
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_28",
+    "sentiment": "negative",
+    "score": 1.49
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_37",
+    "sentiment": "neutral",
+    "score": 2.04
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_25",
+    "sentiment": "negative",
+    "score": 1.24
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_41",
+    "sentiment": "positive",
+    "score": 1.84
+  },
+  {
+    "country": "Spain",
+    "destination": "City_21",
+    "sentiment": "positive",
+    "score": 1.53
+  },
+  {
+    "country": "Spain",
+    "destination": "City_47",
+    "sentiment": "positive",
+    "score": 1.77
+  },
+  {
+    "country": "France",
+    "destination": "City_22",
+    "sentiment": "negative",
+    "score": 3.74
+  },
+  {
+    "country": "Italy",
+    "destination": "City_3",
+    "sentiment": "neutral",
+    "score": 1.2
+  },
+  {
+    "country": "France",
+    "destination": "City_45",
+    "sentiment": "neutral",
+    "score": 1.41
+  },
+  {
+    "country": "Germany",
+    "destination": "City_4",
+    "sentiment": "negative",
+    "score": 1.54
+  },
+  {
+    "country": "Spain",
+    "destination": "City_23",
+    "sentiment": "positive",
+    "score": 2.27
+  },
+  {
+    "country": "Germany",
+    "destination": "City_4",
+    "sentiment": "neutral",
+    "score": 2.2
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_39",
+    "sentiment": "negative",
+    "score": 2.02
+  },
+  {
+    "country": "Japan",
+    "destination": "City_44",
+    "sentiment": "neutral",
+    "score": 4.0
+  },
+  {
+    "country": "USA",
+    "destination": "City_27",
+    "sentiment": "positive",
+    "score": 4.99
+  },
+  {
+    "country": "France",
+    "destination": "City_30",
+    "sentiment": "neutral",
+    "score": 3.14
+  },
+  {
+    "country": "Italy",
+    "destination": "City_25",
+    "sentiment": "positive",
+    "score": 4.78
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_7",
+    "sentiment": "positive",
+    "score": 2.59
+  },
+  {
+    "country": "France",
+    "destination": "City_23",
+    "sentiment": "positive",
+    "score": 1.43
+  },
+  {
+    "country": "Spain",
+    "destination": "City_26",
+    "sentiment": "negative",
+    "score": 2.64
+  },
+  {
+    "country": "France",
+    "destination": "City_21",
+    "sentiment": "neutral",
+    "score": 2.18
+  },
+  {
+    "country": "USA",
+    "destination": "City_31",
+    "sentiment": "positive",
+    "score": 2.97
+  },
+  {
+    "country": "France",
+    "destination": "City_35",
+    "sentiment": "neutral",
+    "score": 3.63
+  },
+  {
+    "country": "Japan",
+    "destination": "City_2",
+    "sentiment": "negative",
+    "score": 2.84
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_6",
+    "sentiment": "neutral",
+    "score": 4.74
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_7",
+    "sentiment": "neutral",
+    "score": 4.54
+  },
+  {
+    "country": "France",
+    "destination": "City_10",
+    "sentiment": "negative",
+    "score": 3.81
+  },
+  {
+    "country": "Japan",
+    "destination": "City_3",
+    "sentiment": "positive",
+    "score": 2.96
+  },
+  {
+    "country": "Germany",
+    "destination": "City_22",
+    "sentiment": "positive",
+    "score": 1.53
+  },
+  {
+    "country": "Spain",
+    "destination": "City_11",
+    "sentiment": "positive",
+    "score": 2.59
+  },
+  {
+    "country": "Spain",
+    "destination": "City_41",
+    "sentiment": "negative",
+    "score": 3.82
+  },
+  {
+    "country": "Italy",
+    "destination": "City_40",
+    "sentiment": "neutral",
+    "score": 2.14
+  },
+  {
+    "country": "France",
+    "destination": "City_31",
+    "sentiment": "negative",
+    "score": 1.42
+  },
+  {
+    "country": "Germany",
+    "destination": "City_3",
+    "sentiment": "positive",
+    "score": 4.63
+  },
+  {
+    "country": "Italy",
+    "destination": "City_41",
+    "sentiment": "neutral",
+    "score": 3.84
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_11",
+    "sentiment": "positive",
+    "score": 3.46
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_15",
+    "sentiment": "positive",
+    "score": 4.17
+  },
+  {
+    "country": "Germany",
+    "destination": "City_30",
+    "sentiment": "neutral",
+    "score": 4.34
+  },
+  {
+    "country": "Spain",
+    "destination": "City_25",
+    "sentiment": "negative",
+    "score": 2.93
+  },
+  {
+    "country": "France",
+    "destination": "City_11",
+    "sentiment": "negative",
+    "score": 4.52
+  },
+  {
+    "country": "France",
+    "destination": "City_44",
+    "sentiment": "neutral",
+    "score": 4.67
+  },
+  {
+    "country": "Spain",
+    "destination": "City_10",
+    "sentiment": "positive",
+    "score": 2.09
+  },
+  {
+    "country": "France",
+    "destination": "City_21",
+    "sentiment": "negative",
+    "score": 3.43
+  },
+  {
+    "country": "France",
+    "destination": "City_3",
+    "sentiment": "positive",
+    "score": 3.11
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_37",
+    "sentiment": "negative",
+    "score": 3.15
+  },
+  {
+    "country": "Spain",
+    "destination": "City_50",
+    "sentiment": "positive",
+    "score": 4.75
+  },
+  {
+    "country": "Germany",
+    "destination": "City_2",
+    "sentiment": "neutral",
+    "score": 2.22
+  },
+  {
+    "country": "Germany",
+    "destination": "City_37",
+    "sentiment": "negative",
+    "score": 4.93
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_46",
+    "sentiment": "positive",
+    "score": 4.61
+  },
+  {
+    "country": "Spain",
+    "destination": "City_24",
+    "sentiment": "negative",
+    "score": 2.83
+  },
+  {
+    "country": "Italy",
+    "destination": "City_35",
+    "sentiment": "neutral",
+    "score": 4.27
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_9",
+    "sentiment": "neutral",
+    "score": 4.08
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_7",
+    "sentiment": "neutral",
+    "score": 3.71
+  },
+  {
+    "country": "Germany",
+    "destination": "City_16",
+    "sentiment": "neutral",
+    "score": 2.28
+  },
+  {
+    "country": "Germany",
+    "destination": "City_15",
+    "sentiment": "neutral",
+    "score": 1.79
+  },
+  {
+    "country": "Italy",
+    "destination": "City_42",
+    "sentiment": "neutral",
+    "score": 3.69
+  },
+  {
+    "country": "Germany",
+    "destination": "City_38",
+    "sentiment": "positive",
+    "score": 4.37
+  },
+  {
+    "country": "Japan",
+    "destination": "City_18",
+    "sentiment": "negative",
+    "score": 1.07
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_35",
+    "sentiment": "positive",
+    "score": 3.57
+  },
+  {
+    "country": "USA",
+    "destination": "City_16",
+    "sentiment": "neutral",
+    "score": 2.77
+  },
+  {
+    "country": "France",
+    "destination": "City_40",
+    "sentiment": "neutral",
+    "score": 4.59
+  },
+  {
+    "country": "Germany",
+    "destination": "City_41",
+    "sentiment": "positive",
+    "score": 2.29
+  },
+  {
+    "country": "France",
+    "destination": "City_10",
+    "sentiment": "negative",
+    "score": 2.9
+  },
+  {
+    "country": "Germany",
+    "destination": "City_2",
+    "sentiment": "neutral",
+    "score": 3.06
+  },
+  {
+    "country": "Germany",
+    "destination": "City_28",
+    "sentiment": "positive",
+    "score": 1.56
+  },
+  {
+    "country": "USA",
+    "destination": "City_39",
+    "sentiment": "neutral",
+    "score": 3.85
+  },
+  {
+    "country": "Spain",
+    "destination": "City_11",
+    "sentiment": "neutral",
+    "score": 4.32
+  },
+  {
+    "country": "USA",
+    "destination": "City_27",
+    "sentiment": "positive",
+    "score": 1.23
+  },
+  {
+    "country": "Japan",
+    "destination": "City_49",
+    "sentiment": "negative",
+    "score": 2.17
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_24",
+    "sentiment": "neutral",
+    "score": 1.15
+  },
+  {
+    "country": "Spain",
+    "destination": "City_41",
+    "sentiment": "neutral",
+    "score": 4.83
+  },
+  {
+    "country": "USA",
+    "destination": "City_41",
+    "sentiment": "negative",
+    "score": 3.67
+  },
+  {
+    "country": "France",
+    "destination": "City_13",
+    "sentiment": "neutral",
+    "score": 4.86
+  },
+  {
+    "country": "Spain",
+    "destination": "City_47",
+    "sentiment": "negative",
+    "score": 3.13
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_19",
+    "sentiment": "neutral",
+    "score": 4.21
+  },
+  {
+    "country": "France",
+    "destination": "City_19",
+    "sentiment": "negative",
+    "score": 2.5
+  },
+  {
+    "country": "Germany",
+    "destination": "City_3",
+    "sentiment": "negative",
+    "score": 2.42
+  },
+  {
+    "country": "Germany",
+    "destination": "City_18",
+    "sentiment": "neutral",
+    "score": 2.51
+  },
+  {
+    "country": "Italy",
+    "destination": "City_23",
+    "sentiment": "positive",
+    "score": 3.63
+  },
+  {
+    "country": "Spain",
+    "destination": "City_8",
+    "sentiment": "negative",
+    "score": 2.44
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_11",
+    "sentiment": "positive",
+    "score": 4.6
+  },
+  {
+    "country": "Germany",
+    "destination": "City_37",
+    "sentiment": "neutral",
+    "score": 4.93
+  },
+  {
+    "country": "USA",
+    "destination": "City_5",
+    "sentiment": "negative",
+    "score": 1.12
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_50",
+    "sentiment": "neutral",
+    "score": 1.77
+  },
+  {
+    "country": "Spain",
+    "destination": "City_11",
+    "sentiment": "positive",
+    "score": 1.45
+  },
+  {
+    "country": "Italy",
+    "destination": "City_11",
+    "sentiment": "positive",
+    "score": 1.17
+  },
+  {
+    "country": "France",
+    "destination": "City_34",
+    "sentiment": "positive",
+    "score": 1.91
+  },
+  {
+    "country": "USA",
+    "destination": "City_23",
+    "sentiment": "negative",
+    "score": 2.79
+  },
+  {
+    "country": "Japan",
+    "destination": "City_46",
+    "sentiment": "neutral",
+    "score": 4.35
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_27",
+    "sentiment": "neutral",
+    "score": 1.89
+  },
+  {
+    "country": "Spain",
+    "destination": "City_22",
+    "sentiment": "negative",
+    "score": 2.98
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_35",
+    "sentiment": "negative",
+    "score": 4.72
+  },
+  {
+    "country": "Spain",
+    "destination": "City_25",
+    "sentiment": "negative",
+    "score": 3.67
+  },
+  {
+    "country": "Japan",
+    "destination": "City_16",
+    "sentiment": "neutral",
+    "score": 4.19
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_25",
+    "sentiment": "neutral",
+    "score": 3.2
+  },
+  {
+    "country": "Japan",
+    "destination": "City_27",
+    "sentiment": "neutral",
+    "score": 4.92
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_44",
+    "sentiment": "positive",
+    "score": 3.35
+  },
+  {
+    "country": "Spain",
+    "destination": "City_1",
+    "sentiment": "negative",
+    "score": 1.18
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_45",
+    "sentiment": "negative",
+    "score": 1.79
+  },
+  {
+    "country": "Italy",
+    "destination": "City_39",
+    "sentiment": "negative",
+    "score": 2.62
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_18",
+    "sentiment": "negative",
+    "score": 3.41
+  },
+  {
+    "country": "Spain",
+    "destination": "City_25",
+    "sentiment": "positive",
+    "score": 4.09
+  },
+  {
+    "country": "France",
+    "destination": "City_1",
+    "sentiment": "positive",
+    "score": 2.65
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_47",
+    "sentiment": "neutral",
+    "score": 3.84
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_7",
+    "sentiment": "negative",
+    "score": 4.16
+  },
+  {
+    "country": "USA",
+    "destination": "City_24",
+    "sentiment": "negative",
+    "score": 2.27
+  },
+  {
+    "country": "Japan",
+    "destination": "City_43",
+    "sentiment": "neutral",
+    "score": 4.92
+  },
+  {
+    "country": "Italy",
+    "destination": "City_11",
+    "sentiment": "negative",
+    "score": 3.6
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_50",
+    "sentiment": "negative",
+    "score": 4.52
+  },
+  {
+    "country": "Spain",
+    "destination": "City_2",
+    "sentiment": "negative",
+    "score": 3.22
+  },
+  {
+    "country": "Spain",
+    "destination": "City_34",
+    "sentiment": "neutral",
+    "score": 3.97
+  },
+  {
+    "country": "Italy",
+    "destination": "City_29",
+    "sentiment": "negative",
+    "score": 4.08
+  },
+  {
+    "country": "Germany",
+    "destination": "City_17",
+    "sentiment": "positive",
+    "score": 4.63
+  },
+  {
+    "country": "Spain",
+    "destination": "City_25",
+    "sentiment": "positive",
+    "score": 1.6
+  },
+  {
+    "country": "USA",
+    "destination": "City_37",
+    "sentiment": "positive",
+    "score": 3.23
+  },
+  {
+    "country": "Germany",
+    "destination": "City_6",
+    "sentiment": "negative",
+    "score": 2.71
+  },
+  {
+    "country": "Germany",
+    "destination": "City_22",
+    "sentiment": "positive",
+    "score": 4.69
+  },
+  {
+    "country": "USA",
+    "destination": "City_3",
+    "sentiment": "neutral",
+    "score": 1.42
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_18",
+    "sentiment": "negative",
+    "score": 4.93
+  },
+  {
+    "country": "USA",
+    "destination": "City_36",
+    "sentiment": "negative",
+    "score": 4.5
+  },
+  {
+    "country": "Germany",
+    "destination": "City_31",
+    "sentiment": "neutral",
+    "score": 1.3
+  },
+  {
+    "country": "Spain",
+    "destination": "City_15",
+    "sentiment": "negative",
+    "score": 2.96
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_11",
+    "sentiment": "neutral",
+    "score": 3.87
+  },
+  {
+    "country": "Spain",
+    "destination": "City_30",
+    "sentiment": "positive",
+    "score": 3.95
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_31",
+    "sentiment": "neutral",
+    "score": 4.63
+  },
+  {
+    "country": "Germany",
+    "destination": "City_36",
+    "sentiment": "positive",
+    "score": 4.2
+  },
+  {
+    "country": "Japan",
+    "destination": "City_31",
+    "sentiment": "positive",
+    "score": 2.24
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_19",
+    "sentiment": "positive",
+    "score": 2.99
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_7",
+    "sentiment": "positive",
+    "score": 3.81
+  },
+  {
+    "country": "France",
+    "destination": "City_43",
+    "sentiment": "positive",
+    "score": 1.55
+  },
+  {
+    "country": "Italy",
+    "destination": "City_1",
+    "sentiment": "positive",
+    "score": 1.78
+  },
+  {
+    "country": "Germany",
+    "destination": "City_36",
+    "sentiment": "negative",
+    "score": 2.92
+  },
+  {
+    "country": "USA",
+    "destination": "City_46",
+    "sentiment": "negative",
+    "score": 2.19
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_31",
+    "sentiment": "negative",
+    "score": 4.45
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_50",
+    "sentiment": "neutral",
+    "score": 3.35
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_44",
+    "sentiment": "positive",
+    "score": 2.39
+  },
+  {
+    "country": "Italy",
+    "destination": "City_15",
+    "sentiment": "neutral",
+    "score": 4.4
+  },
+  {
+    "country": "Japan",
+    "destination": "City_18",
+    "sentiment": "positive",
+    "score": 4.22
+  },
+  {
+    "country": "France",
+    "destination": "City_32",
+    "sentiment": "neutral",
+    "score": 4.99
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_6",
+    "sentiment": "positive",
+    "score": 4.39
+  },
+  {
+    "country": "Japan",
+    "destination": "City_37",
+    "sentiment": "neutral",
+    "score": 2.66
+  },
+  {
+    "country": "Italy",
+    "destination": "City_48",
+    "sentiment": "neutral",
+    "score": 1.51
+  },
+  {
+    "country": "Germany",
+    "destination": "City_49",
+    "sentiment": "positive",
+    "score": 4.36
+  },
+  {
+    "country": "Italy",
+    "destination": "City_19",
+    "sentiment": "positive",
+    "score": 1.24
+  },
+  {
+    "country": "USA",
+    "destination": "City_43",
+    "sentiment": "neutral",
+    "score": 2.4
+  },
+  {
+    "country": "Japan",
+    "destination": "City_25",
+    "sentiment": "negative",
+    "score": 4.68
+  },
+  {
+    "country": "Spain",
+    "destination": "City_50",
+    "sentiment": "positive",
+    "score": 4.84
+  },
+  {
+    "country": "Germany",
+    "destination": "City_23",
+    "sentiment": "negative",
+    "score": 3.56
+  },
+  {
+    "country": "USA",
+    "destination": "City_15",
+    "sentiment": "negative",
+    "score": 3.75
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_41",
+    "sentiment": "neutral",
+    "score": 1.17
+  },
+  {
+    "country": "Germany",
+    "destination": "City_18",
+    "sentiment": "neutral",
+    "score": 3.06
+  },
+  {
+    "country": "Germany",
+    "destination": "City_50",
+    "sentiment": "negative",
+    "score": 3.19
+  },
+  {
+    "country": "Japan",
+    "destination": "City_7",
+    "sentiment": "neutral",
+    "score": 2.36
+  },
+  {
+    "country": "Japan",
+    "destination": "City_8",
+    "sentiment": "neutral",
+    "score": 1.27
+  },
+  {
+    "country": "Spain",
+    "destination": "City_23",
+    "sentiment": "positive",
+    "score": 1.92
+  },
+  {
+    "country": "Spain",
+    "destination": "City_22",
+    "sentiment": "neutral",
+    "score": 2.43
+  },
+  {
+    "country": "Italy",
+    "destination": "City_8",
+    "sentiment": "negative",
+    "score": 2.74
+  },
+  {
+    "country": "Germany",
+    "destination": "City_25",
+    "sentiment": "neutral",
+    "score": 3.36
+  },
+  {
+    "country": "USA",
+    "destination": "City_37",
+    "sentiment": "negative",
+    "score": 3.89
+  },
+  {
+    "country": "Italy",
+    "destination": "City_44",
+    "sentiment": "neutral",
+    "score": 2.27
+  },
+  {
+    "country": "Japan",
+    "destination": "City_32",
+    "sentiment": "positive",
+    "score": 2.32
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_34",
+    "sentiment": "negative",
+    "score": 1.08
+  },
+  {
+    "country": "France",
+    "destination": "City_6",
+    "sentiment": "neutral",
+    "score": 1.16
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_26",
+    "sentiment": "positive",
+    "score": 2.03
+  },
+  {
+    "country": "Germany",
+    "destination": "City_4",
+    "sentiment": "negative",
+    "score": 3.96
+  },
+  {
+    "country": "France",
+    "destination": "City_27",
+    "sentiment": "positive",
+    "score": 3.51
+  },
+  {
+    "country": "Japan",
+    "destination": "City_13",
+    "sentiment": "negative",
+    "score": 4.08
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_12",
+    "sentiment": "positive",
+    "score": 4.08
+  },
+  {
+    "country": "Spain",
+    "destination": "City_45",
+    "sentiment": "neutral",
+    "score": 4.43
+  },
+  {
+    "country": "France",
+    "destination": "City_15",
+    "sentiment": "positive",
+    "score": 3.88
+  },
+  {
+    "country": "France",
+    "destination": "City_25",
+    "sentiment": "negative",
+    "score": 4.92
+  },
+  {
+    "country": "France",
+    "destination": "City_9",
+    "sentiment": "positive",
+    "score": 4.6
+  },
+  {
+    "country": "Italy",
+    "destination": "City_6",
+    "sentiment": "negative",
+    "score": 3.35
+  },
+  {
+    "country": "USA",
+    "destination": "City_13",
+    "sentiment": "positive",
+    "score": 3.35
+  },
+  {
+    "country": "Germany",
+    "destination": "City_5",
+    "sentiment": "negative",
+    "score": 1.14
+  },
+  {
+    "country": "Spain",
+    "destination": "City_15",
+    "sentiment": "positive",
+    "score": 4.99
+  },
+  {
+    "country": "Germany",
+    "destination": "City_25",
+    "sentiment": "neutral",
+    "score": 1.53
+  },
+  {
+    "country": "France",
+    "destination": "City_28",
+    "sentiment": "positive",
+    "score": 3.96
+  },
+  {
+    "country": "Germany",
+    "destination": "City_49",
+    "sentiment": "positive",
+    "score": 4.28
+  },
+  {
+    "country": "Japan",
+    "destination": "City_2",
+    "sentiment": "negative",
+    "score": 2.49
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_46",
+    "sentiment": "neutral",
+    "score": 1.79
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_44",
+    "sentiment": "neutral",
+    "score": 1.4
+  },
+  {
+    "country": "Spain",
+    "destination": "City_39",
+    "sentiment": "negative",
+    "score": 3.99
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_17",
+    "sentiment": "positive",
+    "score": 2.81
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_18",
+    "sentiment": "positive",
+    "score": 3.85
+  },
+  {
+    "country": "Spain",
+    "destination": "City_40",
+    "sentiment": "negative",
+    "score": 4.66
+  },
+  {
+    "country": "Spain",
+    "destination": "City_25",
+    "sentiment": "positive",
+    "score": 1.59
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_13",
+    "sentiment": "neutral",
+    "score": 4.68
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_36",
+    "sentiment": "positive",
+    "score": 2.65
+  },
+  {
+    "country": "USA",
+    "destination": "City_8",
+    "sentiment": "negative",
+    "score": 2.22
+  },
+  {
+    "country": "USA",
+    "destination": "City_31",
+    "sentiment": "positive",
+    "score": 4.77
+  },
+  {
+    "country": "USA",
+    "destination": "City_36",
+    "sentiment": "neutral",
+    "score": 4.96
+  },
+  {
+    "country": "Spain",
+    "destination": "City_27",
+    "sentiment": "neutral",
+    "score": 1.8
+  },
+  {
+    "country": "Germany",
+    "destination": "City_6",
+    "sentiment": "negative",
+    "score": 3.63
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_15",
+    "sentiment": "neutral",
+    "score": 1.43
+  },
+  {
+    "country": "Italy",
+    "destination": "City_23",
+    "sentiment": "neutral",
+    "score": 3.6
+  },
+  {
+    "country": "Germany",
+    "destination": "City_2",
+    "sentiment": "neutral",
+    "score": 4.31
+  },
+  {
+    "country": "France",
+    "destination": "City_36",
+    "sentiment": "neutral",
+    "score": 3.74
+  },
+  {
+    "country": "USA",
+    "destination": "City_15",
+    "sentiment": "neutral",
+    "score": 2.67
+  },
+  {
+    "country": "Italy",
+    "destination": "City_17",
+    "sentiment": "neutral",
+    "score": 2.53
+  },
+  {
+    "country": "USA",
+    "destination": "City_10",
+    "sentiment": "positive",
+    "score": 2.57
+  },
+  {
+    "country": "USA",
+    "destination": "City_19",
+    "sentiment": "neutral",
+    "score": 3.36
+  },
+  {
+    "country": "USA",
+    "destination": "City_39",
+    "sentiment": "positive",
+    "score": 4.53
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_13",
+    "sentiment": "neutral",
+    "score": 4.72
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_4",
+    "sentiment": "positive",
+    "score": 1.21
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_3",
+    "sentiment": "neutral",
+    "score": 1.73
+  },
+  {
+    "country": "Spain",
+    "destination": "City_50",
+    "sentiment": "neutral",
+    "score": 1.45
+  },
+  {
+    "country": "Germany",
+    "destination": "City_44",
+    "sentiment": "positive",
+    "score": 1.77
+  },
+  {
+    "country": "Germany",
+    "destination": "City_32",
+    "sentiment": "positive",
+    "score": 2.39
+  },
+  {
+    "country": "Spain",
+    "destination": "City_26",
+    "sentiment": "positive",
+    "score": 3.03
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_49",
+    "sentiment": "negative",
+    "score": 3.52
+  },
+  {
+    "country": "Italy",
+    "destination": "City_47",
+    "sentiment": "neutral",
+    "score": 3.93
+  },
+  {
+    "country": "Spain",
+    "destination": "City_34",
+    "sentiment": "negative",
+    "score": 4.56
+  },
+  {
+    "country": "Germany",
+    "destination": "City_10",
+    "sentiment": "negative",
+    "score": 4.96
+  },
+  {
+    "country": "USA",
+    "destination": "City_43",
+    "sentiment": "negative",
+    "score": 3.65
+  },
+  {
+    "country": "Italy",
+    "destination": "City_39",
+    "sentiment": "neutral",
+    "score": 4.38
+  },
+  {
+    "country": "France",
+    "destination": "City_16",
+    "sentiment": "neutral",
+    "score": 4.11
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_36",
+    "sentiment": "negative",
+    "score": 2.23
+  },
+  {
+    "country": "Italy",
+    "destination": "City_1",
+    "sentiment": "positive",
+    "score": 4.5
+  },
+  {
+    "country": "France",
+    "destination": "City_9",
+    "sentiment": "positive",
+    "score": 1.17
+  },
+  {
+    "country": "USA",
+    "destination": "City_44",
+    "sentiment": "negative",
+    "score": 1.0
+  },
+  {
+    "country": "Italy",
+    "destination": "City_43",
+    "sentiment": "negative",
+    "score": 2.09
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_49",
+    "sentiment": "negative",
+    "score": 2.85
+  },
+  {
+    "country": "Germany",
+    "destination": "City_42",
+    "sentiment": "negative",
+    "score": 3.55
+  },
+  {
+    "country": "Japan",
+    "destination": "City_44",
+    "sentiment": "neutral",
+    "score": 1.41
+  },
+  {
+    "country": "USA",
+    "destination": "City_44",
+    "sentiment": "positive",
+    "score": 3.69
+  },
+  {
+    "country": "Spain",
+    "destination": "City_24",
+    "sentiment": "negative",
+    "score": 4.21
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_46",
+    "sentiment": "neutral",
+    "score": 1.74
+  },
+  {
+    "country": "Germany",
+    "destination": "City_29",
+    "sentiment": "negative",
+    "score": 2.66
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_30",
+    "sentiment": "positive",
+    "score": 3.08
+  },
+  {
+    "country": "Spain",
+    "destination": "City_15",
+    "sentiment": "positive",
+    "score": 2.81
+  },
+  {
+    "country": "Spain",
+    "destination": "City_26",
+    "sentiment": "neutral",
+    "score": 4.2
+  },
+  {
+    "country": "Italy",
+    "destination": "City_24",
+    "sentiment": "negative",
+    "score": 4.84
+  },
+  {
+    "country": "France",
+    "destination": "City_2",
+    "sentiment": "neutral",
+    "score": 4.2
+  },
+  {
+    "country": "Italy",
+    "destination": "City_6",
+    "sentiment": "neutral",
+    "score": 1.31
+  },
+  {
+    "country": "Germany",
+    "destination": "City_35",
+    "sentiment": "positive",
+    "score": 4.22
+  },
+  {
+    "country": "France",
+    "destination": "City_43",
+    "sentiment": "positive",
+    "score": 1.27
+  },
+  {
+    "country": "USA",
+    "destination": "City_20",
+    "sentiment": "neutral",
+    "score": 1.94
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_6",
+    "sentiment": "negative",
+    "score": 1.61
+  },
+  {
+    "country": "USA",
+    "destination": "City_49",
+    "sentiment": "positive",
+    "score": 1.79
+  },
+  {
+    "country": "Italy",
+    "destination": "City_27",
+    "sentiment": "negative",
+    "score": 3.11
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_20",
+    "sentiment": "positive",
+    "score": 3.69
+  },
+  {
+    "country": "France",
+    "destination": "City_50",
+    "sentiment": "positive",
+    "score": 2.88
+  },
+  {
+    "country": "France",
+    "destination": "City_38",
+    "sentiment": "negative",
+    "score": 4.84
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_10",
+    "sentiment": "neutral",
+    "score": 1.96
+  },
+  {
+    "country": "Japan",
+    "destination": "City_8",
+    "sentiment": "negative",
+    "score": 4.05
+  },
+  {
+    "country": "USA",
+    "destination": "City_18",
+    "sentiment": "positive",
+    "score": 4.48
+  },
+  {
+    "country": "Germany",
+    "destination": "City_25",
+    "sentiment": "negative",
+    "score": 3.25
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_15",
+    "sentiment": "negative",
+    "score": 2.82
+  },
+  {
+    "country": "Japan",
+    "destination": "City_6",
+    "sentiment": "positive",
+    "score": 3.38
+  },
+  {
+    "country": "Spain",
+    "destination": "City_21",
+    "sentiment": "negative",
+    "score": 2.72
+  },
+  {
+    "country": "USA",
+    "destination": "City_5",
+    "sentiment": "negative",
+    "score": 3.22
+  },
+  {
+    "country": "USA",
+    "destination": "City_28",
+    "sentiment": "neutral",
+    "score": 2.67
+  },
+  {
+    "country": "Germany",
+    "destination": "City_47",
+    "sentiment": "positive",
+    "score": 2.6
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_28",
+    "sentiment": "negative",
+    "score": 3.78
+  },
+  {
+    "country": "Spain",
+    "destination": "City_49",
+    "sentiment": "positive",
+    "score": 1.37
+  },
+  {
+    "country": "France",
+    "destination": "City_8",
+    "sentiment": "negative",
+    "score": 1.67
+  },
+  {
+    "country": "Germany",
+    "destination": "City_16",
+    "sentiment": "positive",
+    "score": 4.4
+  },
+  {
+    "country": "Japan",
+    "destination": "City_17",
+    "sentiment": "neutral",
+    "score": 4.08
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_23",
+    "sentiment": "neutral",
+    "score": 2.13
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_40",
+    "sentiment": "negative",
+    "score": 2.51
+  },
+  {
+    "country": "Italy",
+    "destination": "City_48",
+    "sentiment": "negative",
+    "score": 4.7
+  },
+  {
+    "country": "France",
+    "destination": "City_22",
+    "sentiment": "negative",
+    "score": 4.27
+  },
+  {
+    "country": "France",
+    "destination": "City_11",
+    "sentiment": "neutral",
+    "score": 3.46
+  },
+  {
+    "country": "France",
+    "destination": "City_41",
+    "sentiment": "neutral",
+    "score": 1.89
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_9",
+    "sentiment": "neutral",
+    "score": 1.18
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_40",
+    "sentiment": "negative",
+    "score": 2.73
+  },
+  {
+    "country": "Germany",
+    "destination": "City_49",
+    "sentiment": "positive",
+    "score": 3.69
+  },
+  {
+    "country": "Japan",
+    "destination": "City_37",
+    "sentiment": "positive",
+    "score": 4.31
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_38",
+    "sentiment": "positive",
+    "score": 4.41
+  },
+  {
+    "country": "USA",
+    "destination": "City_3",
+    "sentiment": "negative",
+    "score": 1.13
+  },
+  {
+    "country": "Italy",
+    "destination": "City_23",
+    "sentiment": "positive",
+    "score": 1.98
+  },
+  {
+    "country": "Italy",
+    "destination": "City_12",
+    "sentiment": "negative",
+    "score": 2.36
+  },
+  {
+    "country": "Italy",
+    "destination": "City_26",
+    "sentiment": "positive",
+    "score": 1.75
+  },
+  {
+    "country": "USA",
+    "destination": "City_23",
+    "sentiment": "positive",
+    "score": 4.21
+  },
+  {
+    "country": "Japan",
+    "destination": "City_47",
+    "sentiment": "neutral",
+    "score": 4.07
+  },
+  {
+    "country": "Italy",
+    "destination": "City_14",
+    "sentiment": "neutral",
+    "score": 3.07
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_9",
+    "sentiment": "neutral",
+    "score": 4.93
+  },
+  {
+    "country": "France",
+    "destination": "City_6",
+    "sentiment": "negative",
+    "score": 1.58
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_20",
+    "sentiment": "negative",
+    "score": 4.6
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_3",
+    "sentiment": "positive",
+    "score": 1.47
+  },
+  {
+    "country": "France",
+    "destination": "City_19",
+    "sentiment": "positive",
+    "score": 1.65
+  },
+  {
+    "country": "Spain",
+    "destination": "City_46",
+    "sentiment": "neutral",
+    "score": 3.78
+  },
+  {
+    "country": "Italy",
+    "destination": "City_33",
+    "sentiment": "negative",
+    "score": 1.44
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_29",
+    "sentiment": "positive",
+    "score": 3.26
+  },
+  {
+    "country": "Germany",
+    "destination": "City_33",
+    "sentiment": "negative",
+    "score": 2.68
+  },
+  {
+    "country": "Germany",
+    "destination": "City_8",
+    "sentiment": "positive",
+    "score": 3.91
+  },
+  {
+    "country": "USA",
+    "destination": "City_21",
+    "sentiment": "positive",
+    "score": 4.6
+  },
+  {
+    "country": "Japan",
+    "destination": "City_16",
+    "sentiment": "negative",
+    "score": 4.08
+  },
+  {
+    "country": "Germany",
+    "destination": "City_44",
+    "sentiment": "negative",
+    "score": 4.4
+  },
+  {
+    "country": "Japan",
+    "destination": "City_3",
+    "sentiment": "positive",
+    "score": 1.13
+  },
+  {
+    "country": "France",
+    "destination": "City_41",
+    "sentiment": "neutral",
+    "score": 2.24
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_43",
+    "sentiment": "neutral",
+    "score": 3.06
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_36",
+    "sentiment": "negative",
+    "score": 2.66
+  },
+  {
+    "country": "Japan",
+    "destination": "City_4",
+    "sentiment": "negative",
+    "score": 1.93
+  },
+  {
+    "country": "Italy",
+    "destination": "City_45",
+    "sentiment": "negative",
+    "score": 2.23
+  },
+  {
+    "country": "Spain",
+    "destination": "City_17",
+    "sentiment": "negative",
+    "score": 4.78
+  },
+  {
+    "country": "France",
+    "destination": "City_25",
+    "sentiment": "neutral",
+    "score": 2.18
+  },
+  {
+    "country": "Japan",
+    "destination": "City_38",
+    "sentiment": "positive",
+    "score": 2.42
+  },
+  {
+    "country": "Japan",
+    "destination": "City_21",
+    "sentiment": "negative",
+    "score": 1.01
+  },
+  {
+    "country": "USA",
+    "destination": "City_29",
+    "sentiment": "negative",
+    "score": 4.38
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_28",
+    "sentiment": "neutral",
+    "score": 1.62
+  },
+  {
+    "country": "Spain",
+    "destination": "City_34",
+    "sentiment": "positive",
+    "score": 1.82
+  },
+  {
+    "country": "Italy",
+    "destination": "City_46",
+    "sentiment": "neutral",
+    "score": 2.02
+  },
+  {
+    "country": "Germany",
+    "destination": "City_2",
+    "sentiment": "positive",
+    "score": 4.54
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_20",
+    "sentiment": "positive",
+    "score": 1.83
+  },
+  {
+    "country": "Spain",
+    "destination": "City_9",
+    "sentiment": "neutral",
+    "score": 4.19
+  },
+  {
+    "country": "France",
+    "destination": "City_49",
+    "sentiment": "neutral",
+    "score": 4.23
+  },
+  {
+    "country": "Germany",
+    "destination": "City_8",
+    "sentiment": "negative",
+    "score": 4.71
+  },
+  {
+    "country": "Italy",
+    "destination": "City_32",
+    "sentiment": "neutral",
+    "score": 1.46
+  },
+  {
+    "country": "Japan",
+    "destination": "City_26",
+    "sentiment": "neutral",
+    "score": 1.87
+  },
+  {
+    "country": "USA",
+    "destination": "City_45",
+    "sentiment": "positive",
+    "score": 3.97
+  },
+  {
+    "country": "Spain",
+    "destination": "City_46",
+    "sentiment": "negative",
+    "score": 1.78
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_13",
+    "sentiment": "positive",
+    "score": 2.15
+  },
+  {
+    "country": "Spain",
+    "destination": "City_15",
+    "sentiment": "neutral",
+    "score": 1.67
+  },
+  {
+    "country": "Spain",
+    "destination": "City_12",
+    "sentiment": "negative",
+    "score": 1.69
+  },
+  {
+    "country": "Japan",
+    "destination": "City_35",
+    "sentiment": "positive",
+    "score": 2.93
+  },
+  {
+    "country": "Spain",
+    "destination": "City_15",
+    "sentiment": "negative",
+    "score": 1.44
+  },
+  {
+    "country": "Germany",
+    "destination": "City_46",
+    "sentiment": "positive",
+    "score": 2.29
+  },
+  {
+    "country": "Italy",
+    "destination": "City_49",
+    "sentiment": "negative",
+    "score": 2.71
+  },
+  {
+    "country": "Spain",
+    "destination": "City_38",
+    "sentiment": "negative",
+    "score": 1.1
+  },
+  {
+    "country": "Spain",
+    "destination": "City_48",
+    "sentiment": "positive",
+    "score": 2.55
+  },
+  {
+    "country": "Japan",
+    "destination": "City_46",
+    "sentiment": "negative",
+    "score": 1.38
+  },
+  {
+    "country": "France",
+    "destination": "City_47",
+    "sentiment": "neutral",
+    "score": 2.97
+  },
+  {
+    "country": "Italy",
+    "destination": "City_4",
+    "sentiment": "neutral",
+    "score": 4.3
+  },
+  {
+    "country": "Spain",
+    "destination": "City_25",
+    "sentiment": "negative",
+    "score": 4.27
+  },
+  {
+    "country": "Germany",
+    "destination": "City_14",
+    "sentiment": "neutral",
+    "score": 1.32
+  },
+  {
+    "country": "USA",
+    "destination": "City_7",
+    "sentiment": "positive",
+    "score": 3.4
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_35",
+    "sentiment": "positive",
+    "score": 4.34
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_1",
+    "sentiment": "negative",
+    "score": 1.95
+  },
+  {
+    "country": "Italy",
+    "destination": "City_48",
+    "sentiment": "neutral",
+    "score": 4.05
+  },
+  {
+    "country": "USA",
+    "destination": "City_44",
+    "sentiment": "neutral",
+    "score": 4.56
+  },
+  {
+    "country": "Germany",
+    "destination": "City_23",
+    "sentiment": "negative",
+    "score": 4.22
+  },
+  {
+    "country": "Germany",
+    "destination": "City_17",
+    "sentiment": "negative",
+    "score": 1.43
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_49",
+    "sentiment": "positive",
+    "score": 1.04
+  },
+  {
+    "country": "Italy",
+    "destination": "City_48",
+    "sentiment": "positive",
+    "score": 1.77
+  },
+  {
+    "country": "France",
+    "destination": "City_49",
+    "sentiment": "positive",
+    "score": 2.08
+  },
+  {
+    "country": "Morocco",
+    "destination": "City_45",
+    "sentiment": "neutral",
+    "score": 3.46
+  },
+  {
+    "country": "Italy",
+    "destination": "City_29",
+    "sentiment": "negative",
+    "score": 2.54
+  },
+  {
+    "country": "Spain",
+    "destination": "City_39",
+    "sentiment": "negative",
+    "score": 3.81
+  },
+  {
+    "country": "Japan",
+    "destination": "City_1",
+    "sentiment": "negative",
+    "score": 2.41
+  },
+  {
+    "country": "Spain",
+    "destination": "City_23",
+    "sentiment": "negative",
+    "score": 1.62
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_24",
+    "sentiment": "neutral",
+    "score": 2.25
+  },
+  {
+    "country": "Japan",
+    "destination": "City_9",
+    "sentiment": "positive",
+    "score": 4.54
+  },
+  {
+    "country": "USA",
+    "destination": "City_47",
+    "sentiment": "positive",
+    "score": 4.83
+  },
+  {
+    "country": "Germany",
+    "destination": "City_22",
+    "sentiment": "neutral",
+    "score": 1.83
+  },
+  {
+    "country": "Japan",
+    "destination": "City_29",
+    "sentiment": "positive",
+    "score": 4.15
+  },
+  {
+    "country": "USA",
+    "destination": "City_19",
+    "sentiment": "negative",
+    "score": 2.09
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_23",
+    "sentiment": "negative",
+    "score": 4.55
+  },
+  {
+    "country": "Germany",
+    "destination": "City_26",
+    "sentiment": "negative",
+    "score": 1.66
+  }
+]

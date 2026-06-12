@@ -1,0 +1,7 @@
+Model,Approach type,MAE,RMSE,MAPE,R2,Business interpretation,Status
+Gradient Boosting + lag features,Supervised forecasting with lag features,6.853244046496386,8.673520223277325,7.3019614427033215,0.8558262029109144,Candidate model for country demand forecasting and marketing prioritization.,OK
+Random Forest + lag features,Supervised forecasting with lag features,7.690148684979035,9.639584687424694,8.150285370445545,0.8219212116845271,Candidate model for country demand forecasting and marketing prioritization.,OK
+Baseline Persistence,Temporal baseline,9.939285714285713,12.15609782313857,10.701132246699009,0.7168060844179118,Reference point used to prove whether advanced AI adds value.,OK
+Baseline Moving Average,Temporal baseline,13.237499999999999,14.941267954736576,14.311310962245344,0.5721707684797023,Reference point used to prove whether advanced AI adds value.,OK
+SARIMAX,Statistical time-series model,16.885803627716943,20.39084853423747,19.197678842657297,0.20316914412531684,Candidate model for country demand forecasting and marketing prioritization.,OK
+Prophet,Additive time-series model,,,,,Model unavailable or no valid predictions.,Unavailable

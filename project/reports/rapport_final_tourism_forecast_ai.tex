@@ -1,0 +1,656 @@
+\documentclass[11pt,a4paper]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{caption}
+\usepackage{setspace}
+
+\geometry{margin=2.2cm}
+\onehalfspacing
+
+\definecolor{primary}{HTML}{2563EB}
+\definecolor{secondary}{HTML}{14B8A6}
+\definecolor{dark}{HTML}{1E293B}
+\definecolor{muted}{HTML}{64748B}
+\definecolor{lightbg}{HTML}{F8FAFC}
+\definecolor{danger}{HTML}{EF4444}
+\definecolor{warning}{HTML}{F59E0B}
+\definecolor{success}{HTML}{22C55E}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    urlcolor=primary,
+    citecolor=primary
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textbf{Tourism Forecast AI}}
+\rhead{Gouvernance des Données et IA}
+\cfoot{\thepage}
+
+\titleformat{\chapter}{\normalfont\Huge\bfseries\color{dark}}{\thechapter}{1em}{}
+\titleformat{\section}{\normalfont\Large\bfseries\color{primary}}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{dark}}{\thesubsection}{1em}{}
+
+\lstset{
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    frame=single,
+    rulecolor=\color{muted},
+    backgroundcolor=\color{lightbg},
+    keywordstyle=\color{primary}\bfseries,
+    commentstyle=\color{muted},
+    stringstyle=\color{secondary}
+}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \vspace*{1.5cm}
+    {\Huge \textbf{\color{primary}Tourism Forecast AI}\par}
+    \vspace{0.4cm}
+    {\Large Prévision de la demande touristique et recommandations de destinations à promouvoir\par}
+    \vspace{1.2cm}
+    {\large Projet final de Master -- Gouvernance des Données et Intelligence Artificielle\par}
+    \vspace{1.5cm}
+    \rule{0.8\textwidth}{0.5pt}
+    \vspace{0.8cm}
+
+    \begin{tabular}{rl}
+        \textbf{Périmètre :} & Data Engineering, Data Quality, Machine Learning, BI, Gouvernance \\
+        \textbf{Livrable :} & Rapport de synthèse professionnel \\
+        \textbf{Outil dashboard :} & Streamlit, Plotly, Scikit-learn \\
+        \textbf{Modèle retenu :} & Gradient Boosting + lag features \\
+    \end{tabular}
+
+    \vfill
+    {\large Année académique 2025--2026\par}
+\end{titlepage}
+
+\tableofcontents
+\listoftables
+\newpage
+
+\chapter*{Executive Summary}
+\addcontentsline{toc}{chapter}{Executive Summary}
+
+Ce projet vise à prévoir la demande touristique future par pays et à recommander les destinations à promouvoir en priorité. Le cas d'usage combine des enjeux de Data Engineering, Data Quality, gouvernance des données, Machine Learning temporel, Business Intelligence et recommandation métier.
+
+Le projet a été construit selon une logique professionnelle de type cabinet de conseil : conservation des données brutes, pipeline reproductible, GOLD DATA, dictionnaire de données, modèles de forecasting, moteur de recommandation, dashboard exécutif Streamlit et documentation. Les données initiales contiennent volontairement des incohérences : casse des pays, granularités hétérogènes, budgets inconnus, contradictions campagne et cible textuelle non exploitable. Ces anomalies ont été traitées comme des éléments de gouvernance et non comme de simples erreurs techniques.
+
+\begin{table}[H]
+\centering
+\caption{Synthèse des résultats clés}
+\begin{tabularx}{\textwidth}{lX}
+\toprule
+\textbf{Indicateur} & \textbf{Résultat} \\
+\midrule
+Nombre de lignes GOLD DATA & 160 destinations pays--ville \\
+Nombre de pays & 8 pays : France, Germany, Italy, Japan, Morocco, Portugal, Spain, USA \\
+Meilleur modèle & Gradient Boosting + lag features \\
+MAE & 6.85 \\
+RMSE & 8.67 \\
+MAPE & 7.30\% \\
+$R^2$ & 0.86 \\
+Top recommandation & Fès, Morocco \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\chapter{Contexte et besoin métier}
+
+\section{Problématique}
+
+L'objectif métier est d'aider une équipe marketing touristique à répondre à la question suivante :
+
+\begin{quote}
+\textit{Quels pays et quelles destinations doivent être promus en priorité compte tenu de la demande future, de la qualité perçue, du sentiment en ligne, du coût, de la météo et de l'historique campagne ?}
+\end{quote}
+
+La décision marketing ne peut pas se limiter au volume historique de visiteurs. Une destination attractive mais coûteuse, mal notée ou exposée à une météo défavorable ne doit pas être priorisée de la même manière qu'une destination en croissance avec bonne qualité perçue et bon potentiel de campagne.
+
+\section{Objectifs du projet}
+
+Les objectifs opérationnels sont :
+
+\begin{itemize}[leftmargin=*]
+    \item charger automatiquement des fichiers CSV, Excel et JSON ;
+    \item profiler la qualité des données ;
+    \item nettoyer les référentiels pays et destinations ;
+    \item construire une GOLD DATA exploitable ;
+    \item prévoir la demande touristique future par pays ;
+    \item recommander les destinations à promouvoir ;
+    \item restituer les résultats dans un dashboard exécutif ;
+    \item documenter les limites, biais et règles de gouvernance.
+\end{itemize}
+
+\chapter{Architecture du projet}
+
+\section{Organisation du repository}
+
+Le projet a été structuré selon une architecture professionnelle séparant les données brutes, transformées, GOLD, le code source, les notebooks, le dashboard et les rapports.
+
+\begin{lstlisting}[language=bash,caption={Architecture du repository}]
+project/
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── gold/
+├── notebooks/
+│   ├── 01_EDA.ipynb
+│   ├── 02_Cleaning.ipynb
+│   ├── 03_GoldData.ipynb
+│   └── 04_Model.ipynb
+├── src/
+│   ├── preprocessing.py
+│   ├── feature_engineering.py
+│   ├── modeling.py
+│   ├── recommendation.py
+│   └── city_mapping.py
+├── dashboard/
+│   └── app.py
+├── reports/
+├── docs/
+├── models/
+├── requirements.txt
+└── README.md
+\end{lstlisting}
+
+\section{Principes d'architecture}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Raw immutable :} les fichiers sources sont conservés sans modification.
+    \item \textbf{Processed auditable :} chaque nettoyage est sauvegardé et documenté.
+    \item \textbf{Gold analytique :} une table finale pays--destination sert de socle commun pour la BI, l'IA et la recommandation.
+    \item \textbf{Code modulaire :} les transformations sont isolées dans des modules Python maintenables.
+    \item \textbf{Reproductibilité :} le script \texttt{run\_pipeline.py} régénère les sorties principales.
+\end{itemize}
+
+\chapter{Sources de données}
+
+\section{Fichiers utilisés}
+
+\begin{table}[H]
+\centering
+\caption{Sources du projet}
+\begin{tabularx}{\textwidth}{lXl}
+\toprule
+\textbf{Fichier} & \textbf{Description} & \textbf{Format} \\
+\midrule
+\texttt{01\_destinations\_brut.csv} & Destinations, attractivité, coût, rating, visiteurs & CSV \\
+\texttt{02\_signaux\_marche.xlsx} & Signal mensuel de demande par pays & Excel \\
+\texttt{03\_reviews\_reseaux.json} & Avis sociaux, sentiment et score & JSON \\
+\texttt{04\_facteurs\_externes.csv} & Prix de vol et météo & CSV avec séparateur ; \\
+\texttt{05\_cible\_recommandation.csv} & Texte de consigne non tabulaire & CSV texte \\
+\texttt{06\_campaign\_history.json} & Historique campagne, budget, ROI, statut & JSON \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Lecture critique des données}
+
+Le fichier \texttt{05\_cible\_recommandation.csv} ne constitue pas une table analytique exploitable. Il contient une consigne textuelle et non une variable cible structurée. La cible de modélisation a donc été construite à partir des données temporelles disponibles : le signal mensuel de demande par pays.
+
+Cette décision est importante d'un point de vue gouvernance : une donnée fournie ne doit pas être considérée comme correcte ou exploitable sans contrôle préalable.
+
+\chapter{Data Engineering et chargement robuste}
+
+\section{Pipeline de chargement}
+
+Le pipeline de chargement détecte les formats de fichiers et applique les lecteurs adaptés :
+
+\begin{itemize}[leftmargin=*]
+    \item CSV avec détection du séparateur ;
+    \item Excel via \texttt{pandas.read\_excel} ;
+    \item JSON via normalisation en table ;
+    \item journalisation des dimensions, colonnes et types ;
+    \item gestion des erreurs avec logs.
+\end{itemize}
+
+\section{Traçabilité}
+
+Toutes les sources sont copiées dans \texttt{data/raw}. Les transformations ne modifient jamais directement les sources. Les sorties nettoyées sont stockées dans \texttt{data/processed}, et la table finale dans \texttt{data/gold}.
+
+\chapter{Analyse exploratoire des données}
+
+\section{Axes d'analyse}
+
+L'analyse exploratoire couvre :
+
+\begin{itemize}[leftmargin=*]
+    \item statistiques descriptives ;
+    \item distributions et boxplots ;
+    \item corrélations ;
+    \item cardinalités ;
+    \item valeurs manquantes ;
+    \item doublons ;
+    \item anomalies métier ;
+    \item incohérences de granularité ;
+    \item couverture des jointures entre fichiers.
+\end{itemize}
+
+\section{Constats principaux}
+
+\begin{itemize}[leftmargin=*]
+    \item Les pays apparaissent avec des casses différentes, par exemple \texttt{France}, \texttt{france}, \texttt{FRANCE}.
+    \item Les données temporelles sont au niveau pays--mois, alors que les destinations sont au niveau pays--destination.
+    \item Les avis sociaux sont transactionnels et doivent être agrégés avant jointure.
+    \item L'historique campagne est court et contient des contradictions.
+    \item Le budget \texttt{unknown} ne doit pas être imputé arbitrairement.
+\end{itemize}
+
+\chapter{Nettoyage et gouvernance}
+
+\section{Règles de nettoyage}
+
+\begin{table}[H]
+\centering
+\caption{Décisions de nettoyage}
+\begin{tabularx}{\textwidth}{lXX}
+\toprule
+\textbf{Champ} & \textbf{Transformation} & \textbf{Justification} \\
+\midrule
+country & Normalisation en casse titre, règle spéciale USA & Référentiel pays commun \\
+destination & Mapping vers noms réels de villes & Lisibilité métier et restitution exécutive \\
+destination\_original & Conservation du code source \texttt{City\_x} & Lineage et auditabilité \\
+month & Conversion datetime & Split temporel fiable \\
+campaign\_budget & Parsing numérique, \texttt{unknown} conservé en manquant & Pas d'invention de valeur \\
+status vs ROI & Flag de contradiction & Signal de qualité et gouvernance \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Mapping des destinations}
+
+Les destinations anonymisées \texttt{City\_x} ont été mappées vers des villes réelles, par exemple :
+
+\begin{itemize}[leftmargin=*]
+    \item \texttt{("France", "City\_17")} $\rightarrow$ Paris ;
+    \item \texttt{("Morocco", "City\_39")} $\rightarrow$ Fès ;
+    \item \texttt{("USA", "City\_46")} $\rightarrow$ New York ;
+    \item \texttt{("Germany", "City\_46")} $\rightarrow$ Düsseldorf.
+\end{itemize}
+
+La colonne \texttt{destination\_original} conserve la valeur brute, tandis que \texttt{destination} contient le nom fiabilisé. Cette approche respecte la traçabilité et facilite la restitution devant un jury ou un comité métier.
+
+\chapter{Construction de la GOLD DATA}
+
+\section{Granularité}
+
+La GOLD DATA finale est construite à la granularité :
+
+\begin{center}
+\textbf{Pays $\times$ Destination}
+\end{center}
+
+Elle contient 160 lignes et 29 colonnes après enrichissement.
+
+\section{Variables dérivées}
+
+\begin{table}[H]
+\centering
+\caption{Variables dérivées principales}
+\begin{tabularx}{\textwidth}{lX}
+\toprule
+\textbf{Variable} & \textbf{Intérêt métier} \\
+\midrule
+demand\_growth & Mesure la dynamique récente de la demande pays \\
+tourism\_score & Combine attractivité, visiteurs, demande et reviews \\
+quality\_score & Combine rating source et score moyen des avis \\
+sentiment\_score & Convertit les sentiments sociaux en signal numérique \\
+weather\_penalty & Pénalise les destinations à météo défavorable \\
+campaign\_efficiency & Mesure le ROI par euro investi \\
+forecasted\_demand & Estimation de demande future destination \\
+marketing\_priority & Score final de priorisation marketing \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Formule de priorisation}
+
+Le score \texttt{marketing\_priority} combine :
+
+\begin{itemize}[leftmargin=*]
+    \item demande prévue ;
+    \item qualité perçue ;
+    \item sentiment en ligne ;
+    \item ratio attractivité/coût ;
+    \item efficacité campagne ;
+    \item pénalité météo.
+\end{itemize}
+
+Ce score ne remplace pas la décision métier. Il fournit une base structurée de priorisation.
+
+\chapter{Partie F -- Modélisation IA et forecasting temporel}
+
+\section{Objectif de modélisation}
+
+L'objectif est de prévoir la demande touristique future par pays pour le mois suivant. La variable cible retenue est :
+
+\[
+\texttt{target\_next\_period}_{c,t} = \texttt{demand\_index}_{c,t+1}
+\]
+
+où $c$ représente le pays et $t$ la période mensuelle.
+
+Les visiteurs par destination ne disposent pas d'un historique mensuel. Ils sont donc utilisés comme variables explicatives contextuelles et non comme cible temporelle directe.
+
+\section{Type de problème IA}
+
+Il s'agit d'un problème de :
+
+\begin{itemize}[leftmargin=*]
+    \item régression supervisée ;
+    \item prévision temporelle ;
+    \item données structurées ;
+    \item prédiction d'une variable quantitative continue.
+\end{itemize}
+
+Le futur ne doit jamais être utilisé pour entraîner le modèle. Le split est donc chronologique.
+
+\section{Feature engineering temporel}
+
+Les variables temporelles suivantes ont été créées par pays :
+
+\begin{itemize}[leftmargin=*]
+    \item \texttt{lag\_1}, \texttt{lag\_2}, \texttt{lag\_3}, \texttt{lag\_7}, \texttt{lag\_14}, \texttt{lag\_30} ;
+    \item \texttt{rolling\_mean\_3}, \texttt{rolling\_mean\_7}, \texttt{rolling\_mean\_14}, \texttt{rolling\_mean\_30} ;
+    \item \texttt{rolling\_std\_7}, \texttt{rolling\_std\_30} ;
+    \item \texttt{rolling\_min\_30}, \texttt{rolling\_max\_30} ;
+    \item \texttt{month}, \texttt{quarter}, \texttt{year}.
+\end{itemize}
+
+Toutes les variables glissantes utilisent un \texttt{shift(1)} avant calcul. Cela garantit qu'aucune information de la période courante ou future ne fuit dans les variables explicatives.
+
+\section{Approches comparées}
+
+\begin{table}[H]
+\centering
+\caption{Approches de forecasting comparées}
+\begin{tabularx}{\textwidth}{lX}
+\toprule
+\textbf{Modèle} & \textbf{Rôle} \\
+\midrule
+Baseline Persistence & Prévision naïve : la prochaine valeur est égale à la valeur courante \\
+Baseline Moving Average & Moyenne mobile des périodes précédentes \\
+SARIMAX & Modèle statistique de série temporelle par pays avec variables exogènes \\
+Prophet & Modèle additif temporel par pays, si librairie disponible \\
+Random Forest + lag features & Forecasting supervisé avec variables temporelles \\
+Gradient Boosting + lag features & Forecasting supervisé avec variables temporelles \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Validation croisée temporelle}
+
+Pour renforcer la robustesse de l'évaluation des modèles de Machine Learning, une validation croisée adaptée aux séries temporelles a été ajoutée avec \texttt{TimeSeriesSplit}. Contrairement à un \texttt{KFold} classique, cette méthode respecte l'ordre chronologique des observations.
+
+\begin{quote}
+\textit{TimeSeriesSplit respecte l'ordre chronologique des observations et permet de valider le modèle sur plusieurs fenêtres temporelles successives sans fuite d'information.}
+\end{quote}
+
+Cette validation est appliquée aux modèles :
+
+\begin{itemize}[leftmargin=*]
+    \item Random Forest + lag features ;
+    \item Gradient Boosting / XGBoost + lag features.
+\end{itemize}
+
+Pour chaque fold, le modèle est entraîné sur les périodes passées puis évalué sur une fenêtre future. Les métriques calculées sont MAE, RMSE et MAPE. Les résultats détaillés sont sauvegardés dans \texttt{reports/time\_series\_cv\_results.csv}, et la synthèse moyenne/écart-type dans \texttt{reports/time\_series\_cv\_summary.csv}.
+
+Les modèles statistiques comme SARIMAX sont généralement évalués sur un découpage temporel chronologique ou via une approche rolling forecast plutôt qu'avec une validation croisée standard. Prophet est conservé sur une logique de hold-out temporel, avec possibilité d'ajouter \texttt{prophet.diagnostics.cross\_validation} si la librairie est installée.
+
+\section{Résultats des modèles}
+
+\begin{table}[H]
+\centering
+\caption{Performance des modèles}
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{Modèle} & \textbf{MAE} & \textbf{RMSE} & \textbf{MAPE} & \textbf{$R^2$} \\
+\midrule
+Gradient Boosting + lag features & 6.85 & 8.67 & 7.30\% & 0.86 \\
+Random Forest + lag features & 7.69 & 9.64 & 8.15\% & 0.82 \\
+Baseline Persistence & 9.94 & 12.16 & 10.70\% & 0.72 \\
+Baseline Moving Average & 13.24 & 14.94 & 14.31\% & 0.57 \\
+SARIMAX & 16.89 & 20.39 & 19.20\% & 0.20 \\
+Prophet & -- & -- & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Choix du modèle}
+
+Le modèle retenu est \textbf{Gradient Boosting + lag features}. Il obtient la meilleure performance sur l'ensemble de test temporel avec :
+
+\begin{itemize}[leftmargin=*]
+    \item MAE = 6.85 ;
+    \item RMSE = 8.67 ;
+    \item MAPE = 7.30\% ;
+    \item $R^2 = 0.86$.
+\end{itemize}
+
+Ce modèle bat les deux baselines temporelles. Il est donc légitime de considérer que les variables temporelles enrichies apportent une valeur prédictive par rapport à une approche naïve.
+
+\section{Lecture critique}
+
+Les modèles Random Forest et Gradient Boosting ont été adaptés au forecasting via la création de variables de retard et de moyennes glissantes. Ils ne sont donc pas utilisés comme simples modèles tabulaires, mais comme approches de prévision supervisée temporelle.
+
+SARIMAX et Prophet sont méthodologiquement adaptés aux séries temporelles. Toutefois, leurs performances sont limitées par la longueur d'historique disponible. Prophet n'est pas installé dans l'environnement local ; le pipeline le documente comme indisponible sans casser le notebook.
+
+La validation TimeSeriesSplit des modèles ML réduit le risque de fuite de données et permet de vérifier que la performance n'est pas liée à une seule fenêtre de test. Cette méthodologie reflète mieux les conditions réelles de prédiction, où le futur n'est jamais disponible au moment de l'entraînement.
+
+\chapter{Moteur de recommandation métier}
+
+\section{Contraintes intégrées}
+
+Le moteur de recommandation combine :
+
+\begin{itemize}[leftmargin=*]
+    \item prévision de demande ;
+    \item qualité ;
+    \item sentiment ;
+    \item météo ;
+    \item historique campagne ;
+    \item coût ;
+    \item budget marketing ;
+    \item maximum cinq destinations par pays ;
+    \item exclusion des destinations météo trop défavorables.
+\end{itemize}
+
+\section{Top recommandations}
+
+\begin{table}[H]
+\centering
+\caption{Top 10 recommandations marketing}
+\begin{tabularx}{\textwidth}{llrrr}
+\toprule
+\textbf{Pays} & \textbf{Destination} & \textbf{Priorité} & \textbf{Demande prévue} & \textbf{Budget} \\
+\midrule
+Morocco & Fès & 0.66 & 20.75 M & 12.1 K EUR \\
+Japan & Hiroshima & 0.58 & 16.63 M & 10.7 K EUR \\
+Spain & Madrid & 0.55 & 20.52 M & 10.3 K EUR \\
+Portugal & Faro & 0.54 & 18.83 M & 10.0 K EUR \\
+USA & Las Vegas & 0.54 & 19.71 M & 10.0 K EUR \\
+Italy & Venice & 0.53 & 16.46 M & 9.8 K EUR \\
+Japan & Osaka & 0.53 & 16.38 M & 9.8 K EUR \\
+Japan & Kobe & 0.52 & 14.32 M & 9.7 K EUR \\
+Portugal & Coimbra & 0.52 & 13.70 M & 9.6 K EUR \\
+Morocco & Tanger & 0.52 & 18.54 M & 9.5 K EUR \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Interprétation métier}
+
+Les destinations recommandées combinent forte demande attendue, qualité acceptable, sentiment positif ou neutre, météo non bloquante et budget maîtrisé. La recommandation doit être utilisée comme outil d'aide à la décision et validée par les équipes marketing, finance et locales.
+
+\chapter{Dashboard Streamlit}
+
+\section{Objectif}
+
+Le dashboard a été conçu comme une plateforme exécutive interne inspirée des standards Power BI, Tableau, Snowflake et Datadog. Il ne s'agit pas d'une interface décorative, mais d'un outil de pilotage orienté décision.
+
+\section{Pages principales}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Executive Overview :} KPI, carte mondiale, top pays et destinations.
+    \item \textbf{Data Quality :} score qualité, complétude, pipeline ETL et contrôles dataset.
+    \item \textbf{Forecast Analytics :} réel vs prédit, comparaison modèles et métriques.
+    \item \textbf{Business Recommendations :} top destinations, budget, qualité, météo, sentiment.
+    \item \textbf{About :} méthodologie et principes de gouvernance.
+\end{itemize}
+
+\section{Exports}
+
+Le dashboard permet l'export :
+
+\begin{itemize}[leftmargin=*]
+    \item CSV ;
+    \item Excel ;
+    \item rapport PDF de management.
+\end{itemize}
+
+\chapter{Gouvernance et dictionnaire de données}
+
+\section{Principes de gouvernance}
+
+\begin{itemize}[leftmargin=*]
+    \item Conservation des sources brutes.
+    \item Conservation de \texttt{destination\_original} pour le lineage.
+    \item Documentation des transformations.
+    \item Signalement des incohérences plutôt que suppression automatique.
+    \item Dictionnaire de données exporté en Markdown et CSV.
+\end{itemize}
+
+\section{Exemples de règles qualité}
+
+\begin{table}[H]
+\centering
+\caption{Exemples de règles qualité}
+\begin{tabularx}{\textwidth}{lX}
+\toprule
+\textbf{Variable} & \textbf{Règle qualité} \\
+\midrule
+country & Non nul, harmonisé, valeur du référentiel pays \\
+destination & Nom fiabilisé issu du mapping gouverné \\
+destination\_original & Code source conservé, non modifié \\
+rating & Valeur numérique bornée entre 0 et 5 \\
+cost & Valeur strictement positive \\
+weather\_penalty & Mapping contrôlé good / average / bad \\
+campaign\_budget & Valeur numérique ou manquante documentée \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\chapter{Limites et biais}
+
+\section{Limites des données}
+
+\begin{itemize}[leftmargin=*]
+    \item Les visiteurs par destination ne disposent pas d'un historique temporel mensuel.
+    \item Le signal temporel est au niveau pays, pas destination.
+    \item Les avis sociaux peuvent être biaisés par la langue, la plateforme ou la représentativité.
+    \item La météo est catégorielle et simplifiée.
+    \item Les campagnes historiques sont peu nombreuses et contiennent des contradictions.
+    \item Prophet est déclaré dans les requirements mais non installé dans l'environnement local d'exécution.
+\end{itemize}
+
+\section{Limites des modèles}
+
+Le modèle retenu est performant sur le split temporel disponible, mais l'historique reste court. Un backtesting multi-fenêtres serait nécessaire avant industrialisation.
+
+\chapter{Recommandations futures}
+
+\begin{itemize}[leftmargin=*]
+    \item Collecter un historique mensuel de visiteurs par destination.
+    \item Ajouter les prix moyens, événements, vacances scolaires et saisonnalité locale.
+    \item Mettre en place un monitoring MLOps des métriques et du drift.
+    \item Réaliser des tests A/B sur les campagnes recommandées.
+    \item Ajouter une validation métier par pays avant allocation budgétaire.
+    \item Enrichir SARIMAX et Prophet avec davantage d'historique.
+\end{itemize}
+
+\chapter*{Conclusion}
+\addcontentsline{toc}{chapter}{Conclusion}
+
+Le projet démontre une chaîne complète de valeur data : ingestion robuste, nettoyage gouverné, GOLD DATA, dictionnaire, forecasting temporel, moteur de recommandation, dashboard exécutif et documentation. La démarche ne suppose jamais que la donnée est correcte par défaut : elle audite, documente et justifie chaque transformation.
+
+Le modèle retenu, \textbf{Gradient Boosting + lag features}, obtient les meilleures performances sur le test temporel et bat les baselines. Sa performance s'explique par l'utilisation de variables temporelles construites sans fuite de données. Les recommandations produites constituent une aide à la décision exploitable pour orienter les budgets marketing touristiques.
+
+\appendix
+
+\chapter{Annexes techniques}
+
+\section{Commande de lancement}
+
+\begin{lstlisting}[language=bash]
+cd project
+pip install -r requirements.txt
+python run_pipeline.py
+streamlit run dashboard/app.py
+\end{lstlisting}
+
+\section{Fichiers de sortie principaux}
+
+\begin{itemize}[leftmargin=*]
+    \item \texttt{data/gold/gold\_tourism\_data.csv}
+    \item \texttt{data/gold/gold\_tourism\_data\_with\_forecast.csv}
+    \item \texttt{data/gold/business\_recommendations.csv}
+    \item \texttt{reports/model\_performance.csv}
+    \item \texttt{reports/forecast\_predictions.csv}
+    \item \texttt{reports/time\_series\_cv\_results.csv}
+    \item \texttt{reports/time\_series\_cv\_summary.csv}
+    \item \texttt{reports/best\_model\_summary.md}
+    \item \texttt{reports/feature\_importance.csv}
+    \item \texttt{docs/data\_dictionary.md}
+    \item \texttt{dashboard/app.py}
+\end{itemize}
+
+\section{Extrait de la logique de cible}
+
+\begin{lstlisting}[language=Python]
+modeling_df["target_next_period"] = (
+    modeling_df.groupby("country")["demand_index"].shift(-1)
+)
+
+for lag in [1, 2, 3, 7, 14, 30]:
+    modeling_df[f"lag_{lag}"] = (
+        modeling_df.groupby("country")["demand_index"].shift(lag)
+    )
+\end{lstlisting}
+
+\section{Extrait de rolling features sans fuite}
+
+\begin{lstlisting}[language=Python]
+shifted = modeling_df.groupby("country")["demand_index"].shift(1)
+
+for window in [3, 7, 14, 30]:
+    modeling_df[f"rolling_mean_{window}"] = (
+        shifted.groupby(modeling_df["country"])
+        .rolling(window, min_periods=1)
+        .mean()
+        .reset_index(level=0, drop=True)
+    )
+\end{lstlisting}
+
+\end{document}

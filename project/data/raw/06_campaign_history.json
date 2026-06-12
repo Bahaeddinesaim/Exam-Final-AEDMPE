@@ -1,0 +1,66 @@
+[
+  {
+    "country": "France",
+    "destination": "City_3",
+    "campaign_budget": 50000,
+    "conversion_rate": 0.02,
+    "roi": 120000,
+    "status": "SUCCESS"
+  },
+  {
+    "country": "France",
+    "destination": "City_3",
+    "campaign_budget": 50000,
+    "conversion_rate": 0.02,
+    "roi": -10000,
+    "status": "SUCCESS"
+  },
+  {
+    "country": "Spain",
+    "destination": "City_43",
+    "campaign_budget": "unknown",
+    "conversion_rate": 0.08,
+    "roi": 200000,
+    "status": "FAIL"
+  },
+  {
+    "country": "Italy",
+    "destination": "City_7",
+    "campaign_budget": 0,
+    "conversion_rate": 0.12,
+    "roi": 80000,
+    "status": "SUCCESS"
+  },
+  {
+    "country": "Portugal",
+    "destination": "City_21",
+    "campaign_budget": 30000,
+    "conversion_rate": null,
+    "roi": 150000,
+    "status": "SUCCESS"
+  },
+  {
+    "country": "Japan",
+    "destination": "City_40",
+    "campaign_budget": 100000,
+    "conversion_rate": 0.01,
+    "roi": 5000,
+    "status": "TOP_PERFORMER"
+  },
+  {
+    "country": "Spain",
+    "destination": "City_10",
+    "campaign_budget": 75000,
+    "conversion_rate": 0.03,
+    "roi": 220000,
+    "status": "FAIL"
+  },
+  {
+    "country": "France",
+    "destination": "City_17",
+    "campaign_budget": 20000,
+    "conversion_rate": 0.15,
+    "roi": 10000,
+    "status": "SUCCESS"
+  }
+]
